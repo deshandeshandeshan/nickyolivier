@@ -1,0 +1,5 @@
+const Footer = () => {
+  return <footer>Hello world</footer>;
+};
+
+export default Footer;
