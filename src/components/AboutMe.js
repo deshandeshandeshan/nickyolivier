@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import aboutMeIntroImage from "../images/in-nature.jpg";
 import hairStyling from "../images/hair-styling.jpg";
+import "./AboutMe.css";
 
 const AboutMe = () => {
   return (

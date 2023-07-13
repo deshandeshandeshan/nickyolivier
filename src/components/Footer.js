@@ -1,5 +1,6 @@
 import LogoMark from "../images/logo-icon-4.png";
 import { Link } from "react-router-dom";
+import "./Footer.css";
 
 const Footer = () => {
   return (
