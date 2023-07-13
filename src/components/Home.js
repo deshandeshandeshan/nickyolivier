@@ -3,19 +3,20 @@ import introImage from "../images/wedding-hair-2.jpg";
 import weddingCouple from "../images/wedding-couple.png";
 import aboutMe from "../images/about-me.png";
 import galleryImage1 from "../images/wedding-hair-1.jpg";
+import "./Home.css";
 
 const Home = () => {
   return (
     <main className="home">
       <div className="home-intro">
         <div className="home-text-feature">
-          <h1 className="text-feature-text text-feature-line-1">
+          <h1 className="text-feature-text text-feature-line-1 home-heading-text">
             Creating beautiful hairstyles
           </h1>
-          <h1 className="text-feature-text text-feature-line-2">
+          <h1 className="text-feature-text text-feature-line-2 home-heading-text">
             to be picture perfect
           </h1>
-          <h1 className="text-feature-text text-feature-line-3">
+          <h1 className="text-feature-text text-feature-line-3 home-heading-text">
             on your wedding day
           </h1>
         </div>
@@ -25,7 +26,7 @@ const Home = () => {
           className="home-intro-feature-image"
           width="500"
         />
-        <p className="home-intro-text">
+        <p className="home-intro-text home-body-text">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
@@ -50,8 +51,8 @@ const Home = () => {
           alt="potraight of a woman posing amongst flowers"
           className="home-about-me-image"
         />
-        <h2 className="home-about-me-heading">Hello!</h2>
-        <p className="home-about-me-text">
+        <h2 className="home-about-me-heading home-heading-text">Hello!</h2>
+        <p className="home-about-me-text home-body-text">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
