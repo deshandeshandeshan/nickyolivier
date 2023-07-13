@@ -1,0 +1,65 @@
+.footer {
+    background-color: #2D3D2E;
+}
+
+.footer-brand {
+    height: 6rem;
+}
+
+.mobile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 1rem;
+}
+
+.footer-grid-padding {
+    padding:  2rem;
+}
+
+.footer-text-padding {
+    padding-bottom: .2rem;
+}
+
+.footer-details {
+    font-weight: 200;
+    font-size: 16px;
+    color: #E8E9EB;
+}
+
+.footer-nav-links {
+    font-family: "meno-banner", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.footer-grid-item-a {
+    grid-column-start: 1;
+}
+
+.footer-grid-item-b {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    text-align: left;
+    padding-top: 2rem;
+    padding-right: 4rem;
+}
+
+.footer-grid-item-c {
+    grid-column-start: 2;
+    text-align: right;
+}
+
+@media only screen and (min-width: 50rem) {
+    .footer-grid-padding {
+        padding: 2rem 5rem;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    .footer-grid-padding {
+        padding: 2rem 4.375rem;
+    }
+}

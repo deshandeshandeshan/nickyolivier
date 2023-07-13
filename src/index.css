@@ -1,8 +1,17 @@
-body {
+@import url("https://use.typekit.net/osl7hkc.css");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "neue-haas-grotesk-text", sans-serif;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  font-style: normal;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +19,43 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3 {
+  font-family: "meno-banner", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.button-heading-text {
+  font-weight: 700;
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  color: #E8E9EB;
+}
+
+.button {
+  height: auto;
+  width: 15rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #D9BA5E;
+  border: solid;
+  border-color: #D9BA5E;
+  border-radius: 0;
+  text-align: left;
+}
+
+.button:hover {
+  cursor: pointer;
 }

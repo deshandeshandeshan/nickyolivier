@@ -1,59 +1,56 @@
-import LogoMark from "../images/LogoMark.png";
+import LogoMark from "../images/logo-icon-4.png";
 import { Link } from "react-router-dom";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer footerGrid mobileGrid footerGridPadding">
-      <div className="footerGridItemA">
-        <img
-          src={LogoMark}
-          alt="Cosmic energy logo"
-          width="50"
-          className="footerBrand"
-        />
+    <footer className="footer mobile-grid footer-grid-padding">
+      <img
+        src={LogoMark}
+        alt="Cosmic energy logo"
+        className="footer-brand footer-grid-item-a"
+      />
 
-        <ul className="footerContact">
-          <li className="contactItem textPadding">
+      <div className="footer-details footer-grid-item-b">
+        <ul className="footer-contact-details">
+          <li className="contact-list-item footer-text-padding">
             <a href="mailto:hello@nickyolivier.com">hello@nickyolivier.com</a>
           </li>
-          {/* <li className="contactItem textPadding">+64 27 000 0000</li> */}
-          <li className="contactItem textPadding">
+          <li className="contact-list-item footer-text-padding">
             <Link to="https://www.instagram.com/styledbynicky_o/">
               Instagram
             </Link>
           </li>
-          <li className="contactItem textPadding">
+          <li className="contact-list-item footer-text-padding">
             <Link to="https://www.tiktok.com/@nickyolivier1">TikTok</Link>
           </li>
-          <li className="contactItem textPadding">
-            2023 Nicky Olivier Wedding Hair
-          </li>
+          <li className="contact-list-item">2023 Nicky Olivier Wedding Hair</li>
         </ul>
       </div>
 
-      <ul className="footerLink footerGridItemB">
-        <li className="footerItem textPadding">
-          <Link to="/" className="navLink">
+      <ul className="footer-link-list footer-grid-item-c">
+        <li className="footer-list-item footer-text-padding">
+          <Link to="/" className="footer-nav-links">
             Home
           </Link>
         </li>
-        <li>
-          <Link to="/gallery" className="navLink">
+        <li className="footer-list-item footer-text-padding">
+          <Link to="/gallery" className="footer-nav-links">
             Gallery
           </Link>
         </li>
-        <li className="footerItem textPadding">
-          <Link to="/process" className="navLink">
+        <li className="footer-list-item footer-text-padding">
+          <Link to="/process" className="footer-nav-links">
             Process
           </Link>
         </li>
-        <li className="footerItem textPadding">
-          <Link to="/contact" className="navLink">
+        <li className="footer-list-item footer-text-padding">
+          <Link to="/contact" className="footer-nav-links">
             Contact
           </Link>
         </li>
-        <li className="footerItem textPadding">
-          <Link to="/aboutme" className="navLink">
+        <li className="footer-list-item footer-text-padding">
+          <Link to="/aboutme" className="footer-nav-links">
             About me
           </Link>
         </li>
