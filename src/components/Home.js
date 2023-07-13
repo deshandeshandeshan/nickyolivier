@@ -34,7 +34,7 @@ const Home = () => {
           arcu faucibus. In ac aliquam at sed in aliquet.
         </p>
         <Link to="/contact" className="home-intro-contact-button-link">
-          <button className="home-intro-contact-button">
+          <button className="home-intro-contact-button button">
             <h3 className="button-heading-text">Contact me</h3>
             <p>Enquire about your special day</p>
           </button>
@@ -60,7 +60,7 @@ const Home = () => {
           arcu faucibus. In ac aliquam at sed in aliquet.
         </p>
         <Link to="/aboutme" className="home-about-me-button-link">
-          <button className="home-about-me-button">
+          <button className="home-about-me-button button">
             <h3 className="button-heading-text">Read more</h3>
             <p>About myself and my experience</p>
           </button>
@@ -74,7 +74,7 @@ const Home = () => {
           width="500"
         />
         <Link to="/gallery" className="home-gallery-button-link">
-          <button className="home-gallery-button">
+          <button className="button home-gallery-button">
             <h3 className="button-heading-text">View gallery</h3>
             <p>Take a look at some of my work</p>
           </button>

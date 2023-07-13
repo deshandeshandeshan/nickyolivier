@@ -1,3 +1,10 @@
 .header {
     background-color: #2D3D2E;
 }
+
+.navLink {
+    font-family: "meno-banner", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}

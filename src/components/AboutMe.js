@@ -37,7 +37,7 @@ const AboutMe = () => {
           arcu faucibus. In ac aliquam at sed in aliquet.
         </p>
         <Link className="about-me-main-link">
-          <button className="about-me-main-button">
+          <button className="about-me-main-button button">
             <h3>Contact me</h3>
             <p>Enquire about your special day</p>
           </button>

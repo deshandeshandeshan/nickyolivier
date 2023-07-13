@@ -9,6 +9,7 @@
 body {
   font-family: "neue-haas-grotesk-text", sans-serif;
   font-weight: 400;
+  letter-spacing: .1rem;
   font-style: normal;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +27,10 @@ h1, h2, h3 {
   font-style: normal;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 .button-heading-text {
   font-weight: 700;
 }
@@ -37,4 +42,20 @@ li, a {
 
 a {
   color: #E8E9EB;
+}
+
+.button {
+  height: auto;
+  width: 15rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #D9BA5E;
+  border: solid;
+  border-color: #D9BA5E;
+  border-radius: 0;
+  text-align: left;
+}
+
+.button:hover {
+  cursor: pointer;
 }

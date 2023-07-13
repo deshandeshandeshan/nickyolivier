@@ -35,8 +35,12 @@ const Contact = () => {
           className="messageField inputField"
         />
 
-        <button className="form-submit-button" type="submit" value="Submit">
-          Submit
+        <button
+          className="form-submit-button button"
+          type="submit"
+          value="Submit"
+        >
+          <h3>Submit</h3>
         </button>
       </form>
     </main>
