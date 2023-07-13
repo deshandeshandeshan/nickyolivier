@@ -69,7 +69,7 @@ const Home = () => {
       <div className="home-gallery">
         <img
           src={galleryImage1}
-          alt="picture of woman back-side showing off wedding hairstyle"
+          alt="woman back-side showing off wedding hairstyle"
           className="home-gallery-image"
           width="500"
         />
