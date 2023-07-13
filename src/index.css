@@ -1,8 +1,15 @@
-body {
+@import url("https://use.typekit.net/osl7hkc.css");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +17,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1, h2, h3 {
+  font-family: "meno-banner", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.button-heading-text {
+  font-weight: 700;
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
 }

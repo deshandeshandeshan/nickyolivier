@@ -3,56 +3,53 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="footer footerGrid mobileGrid footerGridPadding">
-      <div className="footerGridItemA">
+    <footer className="footer">
+      <div className="footer-details">
         <img
           src={LogoMark}
           alt="Cosmic energy logo"
           width="50"
-          className="footerBrand"
+          className="footer-brand"
         />
 
-        <ul className="footerContact">
-          <li className="contactItem textPadding">
+        <ul className="footer-contact-details">
+          <li className="contact-list-item">
             <a href="mailto:hello@nickyolivier.com">hello@nickyolivier.com</a>
           </li>
-          {/* <li className="contactItem textPadding">+64 27 000 0000</li> */}
-          <li className="contactItem textPadding">
+          <li className="contact-list-item">
             <Link to="https://www.instagram.com/styledbynicky_o/">
               Instagram
             </Link>
           </li>
-          <li className="contactItem textPadding">
+          <li className="contact-list-item">
             <Link to="https://www.tiktok.com/@nickyolivier1">TikTok</Link>
           </li>
-          <li className="contactItem textPadding">
-            2023 Nicky Olivier Wedding Hair
-          </li>
+          <li className="contact-list-item">2023 Nicky Olivier Wedding Hair</li>
         </ul>
       </div>
 
-      <ul className="footerLink footerGridItemB">
-        <li className="footerItem textPadding">
+      <ul className="footer-link-list">
+        <li className="footer-list-item">
           <Link to="/" className="navLink">
             Home
           </Link>
         </li>
-        <li>
+        <li className="footer-list-item">
           <Link to="/gallery" className="navLink">
             Gallery
           </Link>
         </li>
-        <li className="footerItem textPadding">
+        <li className="footer-list-item">
           <Link to="/process" className="navLink">
             Process
           </Link>
         </li>
-        <li className="footerItem textPadding">
+        <li className="footer-list-item">
           <Link to="/contact" className="navLink">
             Contact
           </Link>
         </li>
-        <li className="footerItem textPadding">
+        <li className="footer-list-item">
           <Link to="/aboutme" className="navLink">
             About me
           </Link>

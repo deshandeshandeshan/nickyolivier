@@ -34,7 +34,7 @@ const Home = () => {
         </p>
         <Link to="/contact" className="home-intro-contact-button-link">
           <button className="home-intro-contact-button">
-            <h3>Contact me</h3>
+            <h3 className="button-heading-text">Contact me</h3>
             <p>Enquire about your special day</p>
           </button>
         </Link>
@@ -60,7 +60,7 @@ const Home = () => {
         </p>
         <Link to="/aboutme" className="home-about-me-button-link">
           <button className="home-about-me-button">
-            <h3>Read more</h3>
+            <h3 className="button-heading-text">Read more</h3>
             <p>About myself and my experience</p>
           </button>
         </Link>
@@ -74,7 +74,7 @@ const Home = () => {
         />
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="home-gallery-button">
-            <h3>View gallery</h3>
+            <h3 className="button-heading-text">View gallery</h3>
             <p>Take a look at some of my work</p>
           </button>
         </Link>
