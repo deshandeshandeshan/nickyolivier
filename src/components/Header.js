@@ -49,8 +49,8 @@ const Header = () => {
   return (
     <header className="header">
       <nav
-        className={`navBar ${showNav ? "nav--active" : "nav--hidden"} ${
-          navBackground ? "navBackground--active" : "navBackground--hidden"
+        className={`nav-bar ${showNav ? "nav--active" : "nav--hidden"} ${
+          navBackground ? "nav-background--active" : "nav-background--hidden"
         }`}
       >
         <div className="nav-grid">
@@ -59,7 +59,7 @@ const Header = () => {
               src={Logo}
               alt="Nicky Olivier logo"
               width="200"
-              className="navBrand navBrandPadding"
+              className="nav-brand nav-brand-padding"
             />
           </Link>
           <div
@@ -86,7 +86,7 @@ const Header = () => {
             <li className="nav-item nav-padding">
               <Link
                 to="/"
-                className="navLink"
+                className="nav-link"
                 onClick={() => {
                   setOpen(!open);
                 }}
@@ -97,11 +97,12 @@ const Header = () => {
               >
                 Home
               </Link>
+              <div className="nav-link-wrapper"></div>
             </li>
             <li className="nav-item nav-padding">
               <Link
                 to="/gallery"
-                className="navLink"
+                className="nav-link"
                 onClick={() => {
                   setOpen(!open);
                 }}
@@ -112,11 +113,12 @@ const Header = () => {
               >
                 Gallery
               </Link>
+              <div className="nav-link-wrapper"></div>
             </li>
             <li className="nav-item nav-padding">
               <Link
                 to="/process"
-                className="navLink"
+                className="nav-link"
                 onClick={() => {
                   setOpen(!open);
                 }}
@@ -127,11 +129,12 @@ const Header = () => {
               >
                 Process
               </Link>
+              <div className="nav-link-wrapper"></div>
             </li>
             <li className="nav-item nav-padding">
               <Link
                 to="/contact"
-                className="navLink"
+                className="nav-link"
                 onClick={() => {
                   setOpen(!open);
                 }}
@@ -142,11 +145,12 @@ const Header = () => {
               >
                 Contact
               </Link>
+              <div className="nav-link-wrapper"></div>
             </li>
             <li className="nav-item nav-padding">
               <Link
                 to="/aboutme"
-                className="navLink"
+                className="nav-link"
                 onClick={() => {
                   setOpen(!open);
                 }}
@@ -157,6 +161,7 @@ const Header = () => {
               >
                 About me
               </Link>
+              <div className="nav-link-wrapper"></div>
             </li>
           </ul>
         </div>
