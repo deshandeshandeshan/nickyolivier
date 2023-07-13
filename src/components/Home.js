@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import introImage from "../images/wedding-hair-2.jpg";
+import weddingCouple from "../images/wedding-couple.png";
+import aboutMe from "../images/about-me.png";
+import galleryImage1 from "../images/wedding-hair-1.jpg";
 
 const Home = () => {
   return (
@@ -15,7 +19,12 @@ const Home = () => {
             on your wedding day
           </h1>
         </div>
-        <img></img>
+        <img
+          src={introImage}
+          alt="woman holding flowers looking out into a lake"
+          className="home-intro-feature-image"
+          width="500"
+        />
         <p className="home-intro-text">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
@@ -30,9 +39,17 @@ const Home = () => {
           </button>
         </Link>
       </div>
-      <img></img>
+      <img
+        src={weddingCouple}
+        alt="two newly-weds walking through the forest holding hands"
+        className="home-devider-image home-paralax"
+      />
       <div className="home-about-me">
-        <img></img>
+        <img
+          src={aboutMe}
+          alt="potraight of a woman posing amongst flowers"
+          className="home-about-me-image"
+        />
         <h2 className="home-about-me-heading">Hello!</h2>
         <p className="home-about-me-text">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
@@ -49,7 +66,12 @@ const Home = () => {
         </Link>
       </div>
       <div className="home-gallery">
-        <img></img>
+        <img
+          src={galleryImage1}
+          alt="picture of woman back-side showing off wedding hairstyle"
+          className="home-gallery-image"
+          width="500"
+        />
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="home-gallery-button">
             <h3>View gallery</h3>
