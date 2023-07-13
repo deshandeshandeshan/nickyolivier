@@ -27,7 +27,7 @@
 
 .nav--hidden {
     position: fixed;
-    top: -7rem;
+    top: -8rem;
     transition: .5s;
 }
 
@@ -84,20 +84,20 @@
 }
 
 .bar1 {
-    top: 2.7rem;
-}
-
-.bar2 {
     top: 3.5rem;
 }
 
+.bar2 {
+    top: 4.5rem;
+}
+
 .bar1.spin {
-    top: 3.1rem;
+    top: 4rem;
     transform: rotate(135deg);
 }
 
 .bar2.spin {
-    top: 3.1rem;
+    top: 4rem;
     transform: rotate(225deg);
 }
 
@@ -145,4 +145,20 @@ ul.nav-menu li a {
 
 .nav-item {
     padding-bottom: .5rem;
+}
+
+@media only screen and (min-width: 50rem) {
+    ul.nav-menu li a {
+        font-size: 4.5rem;
+    }
+
+    .nav-bar {
+        padding: 0 5rem;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    .nav-bar {
+        padding: 0 4.375rem;
+    }
 }

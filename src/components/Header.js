@@ -108,7 +108,7 @@ const Header = () => {
                 }}
                 style={{
                   top: open ? "0" : "120px",
-                  transitionDelay: open ? "0.7s" : "0s",
+                  transitionDelay: open ? "0.9s" : "0s",
                 }}
               >
                 Gallery
@@ -124,7 +124,7 @@ const Header = () => {
                 }}
                 style={{
                   top: open ? "0" : "120px",
-                  transitionDelay: open ? "0.7s" : "0s",
+                  transitionDelay: open ? "1.1s" : "0s",
                 }}
               >
                 Process
@@ -140,7 +140,7 @@ const Header = () => {
                 }}
                 style={{
                   top: open ? "0" : "120px",
-                  transitionDelay: open ? "0.7s" : "0s",
+                  transitionDelay: open ? "1.3s" : "0s",
                 }}
               >
                 Contact
@@ -156,7 +156,7 @@ const Header = () => {
                 }}
                 style={{
                   top: open ? "0" : "120px",
-                  transitionDelay: open ? "0.7s" : "0s",
+                  transitionDelay: open ? "1.5s" : "0s",
                 }}
               >
                 About me
