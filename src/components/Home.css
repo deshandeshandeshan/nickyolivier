@@ -138,6 +138,10 @@
     .home {
         padding-top: 6rem;
     }
+    
+    .home-section-padding {
+        padding-bottom: 0;
+    }
 
     .text-feature-text {
         padding-bottom: 1rem;
@@ -232,6 +236,111 @@
     .home-about-me-button-link {
         grid-column-start: 1;
         grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    .home-gallery {
+        grid-template-rows: repeat(2, auto);
+    }
+    
+    .home-gallery-image {
+        grid-column-start: 3;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .home-gallery-button-link {
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
+
+@media only screen and (min-width: 70rem) {
+    .home-grid {
+        grid-template-columns: repeat(12, 1fr);
+        padding: 8rem 4.375rem 4rem;
+    }
+
+    .text-feature-text {
+        font-size: 2.7rem;
+    }
+
+    .text-feature-line-1 {
+        grid-column-start: 2;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .text-feature-line-2 {
+        grid-column-start: 8;
+        grid-column-end: 13;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .text-feature-line-3 {
+        grid-column-start: 6;
+        grid-column-end: 11;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        z-index: 2;
+    }
+
+    .home-intro-feature-image {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 8;
+    }
+    
+    .home-intro-text {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    .home-intro-contact-button-link {
+        grid-column-start: 10;
+        grid-column-end: 13;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+    .home-about-me {
+        grid-template-rows: repeat(6, auto);
+    }
+    
+    .home-about-me-image {
+        grid-column-start: 8;
+        grid-column-end: 13;
+        grid-row-start: 1;
+        grid-row-end: 6;
+        min-width: 20rem;
+    }
+    
+    .home-about-me-heading {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    .home-about-me-text {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .home-about-me-button-link {
+        grid-column-start: 2;
+        grid-column-end: 5;
         grid-row-start: 4;
         grid-row-end: 5;
     }
