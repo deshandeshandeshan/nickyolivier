@@ -1,9 +1,134 @@
 .home {
     background-color: #2D3D2E;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .home-body-text, .home-heading-text {
     color: #E8E9EB;
 }
 
+.text-feature-text {
+    font-size: 1.6rem
+}
+
+.home-text-align, .text-feature-text {
+    text-align: center;
+}
+
+.home-section-padding {
+    padding-bottom: 2rem;
+}
+
+.home-text-padding {
+    padding-bottom: .5rem;
+}
+
+.home-devider {
+    display: block;
+    height: .1rem;
+    background-color: #E8E9EB;
+    margin: 0 2rem;
+}
+
+.mobile-grid-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 1rem;
+    padding: 4rem 2rem;
+}
+
+.home-intro {
+    grid-template-rows: repeat(6, auto);
+}
+
+.text-feature-line-1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.text-feature-line-2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.text-feature-line-3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.home-intro-feature-image {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.home-intro-text {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.home-intro-contact-button-link {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.home-about-me {
+    grid-template-rows: repeat(5, auto);
+}
+
+.home-about-me-image {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.home-about-me-heading {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.home-about-me-text {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.home-about-me-button-link {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.home-gallery {
+    grid-template-rows: repeat(2, auto);
+}
+
+.home-gallery-image {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.home-gallery-button-link {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}

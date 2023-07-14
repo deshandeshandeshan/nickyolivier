@@ -1,0 +1,64 @@
+.about-me {
+    background-color: #2D3D2E;
+    color: #E8E9EB;
+}
+
+.about-me-text-align {
+    text-align: center;
+}
+
+.about-me-intro-heading, .about-me-intro-text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about-me-section-padding {
+    padding-bottom: 2rem;
+}
+
+.about-me-text-padding {
+    padding-bottom: 1rem;
+}
+
+.about-me-intro-text {
+    padding-bottom: 4rem;
+}
+
+.about-me-section-divider {
+    display: block;
+    height: .1rem;
+    background-color: #E8E9EB;
+    margin: 0 2rem;
+}
+
+.about-me-main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 1rem;
+    padding: 4rem 2rem;
+}
+
+.about-me-main {
+    grid-template-rows: repeat(4, auto);
+}
+
+.about-me-main-image {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.about-me-main-text {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.about-me-main-link {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}

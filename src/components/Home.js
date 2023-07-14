@@ -8,25 +8,23 @@ import "./Home.css";
 const Home = () => {
   return (
     <main className="home">
-      <div className="home-intro">
-        <div className="home-text-feature">
-          <h1 className="text-feature-text text-feature-line-1 home-heading-text">
-            Creating beautiful hairstyles
-          </h1>
-          <h1 className="text-feature-text text-feature-line-2 home-heading-text">
-            to be picture perfect
-          </h1>
-          <h1 className="text-feature-text text-feature-line-3 home-heading-text">
-            on your wedding day
-          </h1>
-        </div>
+      <div className="home-intro mobile-grid-home">
+        <h1 className="text-feature-text text-feature-line-1 home-heading-text">
+          Creating <i>beautiful</i> hairstyles
+        </h1>
+        <h1 className="text-feature-text text-feature-line-2 home-heading-text">
+          to be picture perfect
+        </h1>
+        <h1 className="text-feature-text text-feature-line-3 home-heading-text home-section-padding">
+          on your <i>wedding</i> day
+        </h1>
         <img
           src={introImage}
           alt="woman holding flowers looking out into a lake"
-          className="home-intro-feature-image"
-          width="500"
+          className="home-intro-feature-image home-section-padding"
+          width="100%"
         />
-        <p className="home-intro-text home-body-text">
+        <p className="home-intro-text home-body-text home-section-padding">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
@@ -44,15 +42,19 @@ const Home = () => {
         src={weddingCouple}
         alt="two newly-weds walking through the forest holding hands"
         className="home-devider-image home-paralax"
+        width="100%"
       />
-      <div className="home-about-me">
+      <div className="home-about-me mobile-grid-home">
         <img
           src={aboutMe}
           alt="potraight of a woman posing amongst flowers"
-          className="home-about-me-image"
+          className="home-about-me-image home-section-padding"
+          width="100%"
         />
-        <h2 className="home-about-me-heading home-heading-text">Hello!</h2>
-        <p className="home-about-me-text home-body-text">
+        <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align">
+          Hello!
+        </h2>
+        <p className="home-about-me-text home-body-text home-section-padding home-text-align">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
@@ -66,12 +68,13 @@ const Home = () => {
           </button>
         </Link>
       </div>
-      <div className="home-gallery">
+      <div className="home-devider"></div>
+      <div className="home-gallery mobile-grid-home">
         <img
           src={galleryImage1}
           alt="woman back-side showing off wedding hairstyle"
-          className="home-gallery-image"
-          width="500"
+          className="home-gallery-image home-section-padding"
+          width="100%"
         />
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">

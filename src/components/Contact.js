@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <main className="contact">
       <h1 className="contact-intro-heading">Get in touch with me!</h1>
-      <p className="contact-intro-text">
+      <p className="contact-intro-text contact-section-padding">
         Enquire here for a service and I’ll be in touch
       </p>
       <form
@@ -13,17 +13,20 @@ const Contact = () => {
         method="POST"
       >
         <label htmlFor="name">Name:</label>
-        <input className="inputField" type="text" id="name" name="name" />
+        <input
+          className="input-field name-input-field contact-form-padding contact-form-text-padding"
+          type="text"
+          id="name"
+          name="name"
+        />
 
         <label htmlFor="email">Email:</label>
-        <input type="text" id="email" name="email" className="inputField" />
-
-        <label htmlFor="service">Service:</label>
-        <select className="inputField" name="services" id="service">
-          <option value="reiki">Reiki</option>
-          <option value="oracle">Oracle card reading</option>
-          <option value="medium">Mediumship reading</option>
-        </select>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          className="input-field email-input-field contact-form-padding contact-form-text-padding"
+        />
 
         <label htmlFor="message">Message:</label>
         <textarea
@@ -32,11 +35,10 @@ const Contact = () => {
           name="message"
           cols="60"
           rows="8"
-          className="messageField inputField"
+          className="message-field input-field contact-form-padding"
         />
-
         <button
-          className="form-submit-button button"
+          className="form-submit-button button contact-button-margin"
           type="submit"
           value="Submit"
         >
