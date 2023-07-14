@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .button-heading-text {
@@ -47,7 +47,7 @@ a {
   border: solid;
   border-color: #D9BA5E;
   border-radius: 0;
-  text-align: left;
+  text-align: left; 
 }
 
 .button:hover {
