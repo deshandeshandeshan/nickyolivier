@@ -6,19 +6,13 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "neue-haas-grotesk-text", sans-serif;
-  font-weight: 400;
+body, p {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 300;
   letter-spacing: .1rem;
-  font-style: normal;
   font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 h1, h2, h3 {
@@ -46,7 +40,7 @@ a {
 
 .button {
   height: auto;
-  width: 15rem;
+  width: 100%;
   padding: 1rem 2rem;
   background-color: transparent;
   color: #D9BA5E;
