@@ -68,6 +68,7 @@ const Home = () => {
           </button>
         </Link>
       </div>
+      <div className="home-devider"></div>
       <div className="home-gallery mobile-grid-home">
         <img
           src={galleryImage1}
