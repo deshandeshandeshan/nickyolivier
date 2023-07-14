@@ -1,0 +1,43 @@
+.contact {
+    padding: 8rem 2rem 2rem;
+    background-color: #2D3D2E;
+    color: #E8E9EB;
+}
+
+.contact-section-padding {
+    padding-bottom: 2rem;
+}
+
+.contact-form-padding {
+    margin-top: .5rem;
+}
+
+.contact-form-text-padding {
+    margin-bottom: 1rem;
+}
+
+.contact-button-margin {
+    margin-top: 2rem;
+}
+
+.input-field {
+    display: block;
+    border-radius: .5rem;
+    border-style: none;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 300;
+  letter-spacing: .1rem;
+  font-size: 16px;
+}
+
+.name-input-field, .email-input-field {
+    width: 100%;
+    max-width: 20rem;
+    height: 2rem;
+    padding: 0 .5rem;
+}
+
+.message-field {
+    width: 100%;
+    padding: .5rem;
+}
