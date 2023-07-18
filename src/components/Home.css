@@ -147,6 +147,10 @@
         padding-bottom: 1rem;
     }
 
+    .home-button-padding {
+        padding-bottom: 2rem;
+    }
+
     .home-text-align {
         text-align: left;
     }
@@ -267,6 +271,10 @@
 
     .text-feature-text {
         font-size: 2.7rem;
+    }
+
+    .home-button-padding {
+        padding-bottom: 3rem;
     }
 
     .text-feature-line-1 {

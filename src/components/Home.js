@@ -24,7 +24,7 @@ const Home = () => {
           className="home-intro-feature-image home-section-padding"
           width="100%"
         />
-        <p className="home-intro-text home-body-text home-section-padding">
+        <p className="home-intro-text home-body-text home-section-padding home-button-padding">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
@@ -54,7 +54,7 @@ const Home = () => {
         <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align">
           Hello!
         </h2>
-        <p className="home-about-me-text home-body-text home-section-padding home-text-align">
+        <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
