@@ -1,8 +1,6 @@
 .home {
     background-color: #2D3D2E;
     padding-top: 9rem;
-    position: relative;
-    z-index: -2;
 }
 
 .home-body-text, .home-heading-text {
@@ -70,7 +68,6 @@
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 5;
-    z-index: -1;
 }
 
 .home-intro-text {

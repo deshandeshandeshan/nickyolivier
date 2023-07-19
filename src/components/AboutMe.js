@@ -11,7 +11,6 @@ const AboutMe = () => {
           src={aboutMeIntroImage}
           alt="woman walking through large field"
           className="about-me-intro-image about-me-section-padding"
-          width="100%"
         />
         <h2 className="about-me-intro-heading about-me-text-align about-me-text-padding">
           Hello!
@@ -32,9 +31,8 @@ const AboutMe = () => {
           src={hairStyling}
           alt="woman getting her hair styled by hairdresser"
           className="about-me-main-image about-me-section-padding"
-          width="100%"
         />
-        <p className="about-me-main-text about-me-section-padding about-me-text-align">
+        <p className="about-me-main-text about-me-button-padding about-me-text-align">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
@@ -48,6 +46,7 @@ const AboutMe = () => {
           </button>
         </Link>
       </div>
+      <div className="about-me-section-divider"></div>
     </main>
   );
 };
