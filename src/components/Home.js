@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import introImage from "../images/wedding-hair-2.jpg";
-import weddingCouple from "../images/wedding-couple.png";
+import weddingCouple from "../images/wedding-hair-15.jpg";
 import aboutMe from "../images/about-me.png";
 import galleryImage1 from "../images/wedding-hair-1.jpg";
 import "./Home.css";

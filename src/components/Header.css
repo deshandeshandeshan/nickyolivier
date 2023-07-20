@@ -1,5 +1,7 @@
 .header {
     background-color: #2D3D2E;
+    position: relative;
+    z-index: 1;
 }
 
 .nav-link {
