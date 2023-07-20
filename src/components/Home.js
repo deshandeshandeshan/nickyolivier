@@ -8,14 +8,14 @@ import "./Home.css";
 const Home = () => {
   return (
     <main className="home">
-      <div className="home-intro mobile-grid-home">
+      <div className="home-intro home-grid">
         <h1 className="text-feature-text text-feature-line-1 home-heading-text">
           Creating <i>beautiful</i> hairstyles
         </h1>
         <h1 className="text-feature-text text-feature-line-2 home-heading-text">
           to be picture perfect
         </h1>
-        <h1 className="text-feature-text text-feature-line-3 home-heading-text home-section-padding">
+        <h1 className="text-feature-text text-feature-line-3 home-heading-text">
           on your <i>wedding</i> day
         </h1>
         <img
@@ -24,7 +24,7 @@ const Home = () => {
           className="home-intro-feature-image home-section-padding"
           width="100%"
         />
-        <p className="home-intro-text home-body-text home-section-padding">
+        <p className="home-intro-text home-body-text home-section-padding home-button-padding">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
@@ -44,7 +44,7 @@ const Home = () => {
         className="home-devider-image home-paralax"
         width="100%"
       />
-      <div className="home-about-me mobile-grid-home">
+      <div className="home-about-me home-grid">
         <img
           src={aboutMe}
           alt="potraight of a woman posing amongst flowers"
@@ -54,7 +54,7 @@ const Home = () => {
         <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align">
           Hello!
         </h2>
-        <p className="home-about-me-text home-body-text home-section-padding home-text-align">
+        <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">
           Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
           elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
           dictum scelerisque. Cras enim consequat ut molestie facilisis risus
@@ -69,7 +69,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="home-devider"></div>
-      <div className="home-gallery mobile-grid-home">
+      <div className="home-gallery home-grid">
         <img
           src={galleryImage1}
           alt="woman back-side showing off wedding hairstyle"

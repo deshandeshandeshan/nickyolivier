@@ -1,7 +1,12 @@
 .contact {
-    padding: 8rem 2rem 2rem;
+    padding: 10rem 2rem 4rem;
     background-color: #2D3D2E;
     color: #E8E9EB;
+}
+
+.contact-container {
+   max-width: 40rem; 
+   margin: 0 auto;
 }
 
 .contact-section-padding {
@@ -32,7 +37,6 @@
 
 .name-input-field, .email-input-field {
     width: 100%;
-    max-width: 20rem;
     height: 2rem;
     padding: 0 .5rem;
 }
@@ -40,4 +44,16 @@
 .message-field {
     width: 100%;
     padding: .5rem;
+}
+
+.form-submit-button {
+    text-align: center;
+}
+
+@media only screen and (min-width: 50rem) {
+
+}
+
+@media only screen and (min-width: 70rem) {
+    
 }
