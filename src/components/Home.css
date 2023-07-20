@@ -269,7 +269,7 @@
     }
 
     .text-feature-text {
-        font-size: 2.7rem;
+        font-size: 4rem;
     }
 
     .home-button-padding {
@@ -278,28 +278,28 @@
 
     .text-feature-line-1 {
         grid-column-start: 2;
-        grid-column-end: 9;
+        grid-column-end: 11;
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
     .text-feature-line-2 {
-        grid-column-start: 8;
+        grid-column-start: 6;
         grid-column-end: 13;
         grid-row-start: 2;
         grid-row-end: 3;
     }
 
     .text-feature-line-3 {
-        grid-column-start: 6;
+        grid-column-start: 4;
         grid-column-end: 11;
         grid-row-start: 3;
         grid-row-end: 4;
     }
 
     .home-intro-feature-image {
-        grid-column-start: 2;
-        grid-column-end: 7;
+        grid-column-start: 1;
+        grid-column-end: 6;
         grid-row-start: 2;
         grid-row-end: 8;
     }
@@ -312,8 +312,8 @@
     }
     
     .home-intro-contact-button-link {
-        grid-column-start: 10;
-        grid-column-end: 13;
+        grid-column-start: 8;
+        grid-column-end: 12;
         grid-row-start: 6;
         grid-row-end: 7;
     }
@@ -346,7 +346,7 @@
     
     .home-about-me-button-link {
         grid-column-start: 2;
-        grid-column-end: 5;
+        grid-column-end: 6;
         grid-row-start: 4;
         grid-row-end: 5;
     }
