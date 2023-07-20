@@ -1,0 +1,23 @@
+.homeParallaxImage, .parallax {
+    height: 1000px;
+}
+
+.parallax {
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.homeParallaxImage {
+    background-image: url(../images/wedding-hair-15.jpg);
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+
+.homeParallaxImage.animation {
+    position: fixed;
+}
+

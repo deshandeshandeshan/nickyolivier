@@ -2,10 +2,13 @@ import { Link } from "react-router-dom";
 import aboutMeIntroImage from "../images/in-nature.jpg";
 import hairStyling from "../images/hair-styling.jpg";
 import "./AboutMe.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const AboutMe = () => {
   return (
     <main className="about-me">
+      <Header />
       <div className="about-me-intro about-me-grid">
         <img
           src={aboutMeIntroImage}
@@ -47,6 +50,7 @@ const AboutMe = () => {
         </Link>
       </div>
       <div className="about-me-section-divider"></div>
+      <Footer />
     </main>
   );
 };

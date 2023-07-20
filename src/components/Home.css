@@ -1,6 +1,37 @@
-.home {
+.home-intro, .home-about-me, .home-gallery {
     background-color: #2D3D2E;
-    padding-top: 9rem;
+}
+
+.home-intro {
+padding-top: 9rem;
+}
+
+.contentWrapper {
+height: 100vh;
+overflow-y: auto;
+overflow-x: hidden;
+perspective: 10px;
+}
+
+.parallaxImageContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.home-devider-image {
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.home-paralax {
+    transform: translateZ(-10px) scale(2);
 }
 
 .home-body-text, .home-heading-text {
@@ -135,7 +166,7 @@
 }
 
 @media only screen and (min-width: 50rem) {
-    .home {
+    .home-intro {
         padding-top: 6rem;
     }
     

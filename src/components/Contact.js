@@ -1,8 +1,11 @@
 import "./Contact.css";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
     <main className="contact">
+      <Header />
       <div className="contact-container">
         <h1 className="contact-intro-heading">Get in touch with me!</h1>
         <p className="contact-intro-text contact-section-padding">
@@ -47,6 +50,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </main>
   );
 };

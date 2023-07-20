@@ -11,10 +11,13 @@ import weddingHairImage9 from "../images/wedding-hair-11.jpg";
 import weddingHairImage10 from "../images/wedding-hair-12.jpg";
 import weddingHairImage11 from "../images/wedding-hair-13.jpg";
 import weddingHairImage12 from "../images/wedding-hair-14.jpg";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const Gallery = () => {
   return (
     <main className="gallery">
+      <Header />
       <h1 className="gallery-heading gallery-text-align">Gallery</h1>
       <p className="gallery-intro-text gallery-text-align">
         Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu elementum.
@@ -58,6 +61,7 @@ const Gallery = () => {
           </a>
         </div>
       </div>
+      <Footer />
     </main>
   );
 };
