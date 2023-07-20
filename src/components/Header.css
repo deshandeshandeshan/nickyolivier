@@ -17,20 +17,6 @@
     padding: 0 2rem 
 }
 
-.nav-background--hidden {
-    background-color: transparent;
-}
-
-.nav-background--active {
-    background-color: #2D3D2E;
-}
-
-.nav--hidden {
-    position: fixed;
-    top: -8rem;
-    transition: .5s;
-}
-
 .nav-logo-link {
     display: flex;
     justify-content: left;

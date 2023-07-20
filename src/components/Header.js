@@ -1,58 +1,14 @@
 import { Link } from "react-router-dom";
 import Logo from "../images/lockup-1.png";
 import "./Header.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
-  const [showNav, setShowNav] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
-  const [navBackground, setNavBackground] = useState(false);
-
-  const controlNavBar = () => {
-    if (window.scrollY > lastScrollY && lastScrollY >= 0) {
-      setShowNav(false);
-    } else {
-      setShowNav(true);
-    }
-
-    setLastScrollY(window.scrollY);
-  };
-
-  const closeNavOnScroll = () => {
-    if (window.scrollY > lastScrollY) {
-      setOpen(false);
-    }
-
-    setLastScrollY(window.scrollY);
-  };
-
-  const removeBackgroundOnScroll = () => {
-    if (window.scrollY > 200) {
-      setNavBackground(true);
-    } else {
-      setNavBackground(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", controlNavBar);
-    window.addEventListener("scroll", closeNavOnScroll);
-    window.addEventListener("scroll", removeBackgroundOnScroll);
-    return () => {
-      window.removeEventListener("scroll", controlNavBar);
-      window.addEventListener("scroll", closeNavOnScroll);
-      window.addEventListener("scroll", removeBackgroundOnScroll);
-    };
-  });
 
   return (
     <header className="header">
-      <nav
-        className={`nav-bar ${showNav ? "nav--active" : "nav--hidden"} ${
-          navBackground ? "nav-background--active" : "nav-background--hidden"
-        }`}
-      >
+      <nav className="nav-bar">
         <div className="nav-grid">
           <Link to="/" className="nav-logo-link">
             <img
@@ -66,7 +22,6 @@ const Header = () => {
             className="hamburger-grid-item"
             onClick={() => {
               setOpen(!open);
-              setNavBackground(true);
             }}
           >
             <div className="hamburger">
