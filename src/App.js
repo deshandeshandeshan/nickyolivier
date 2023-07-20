@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Process from "./components/Process";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import AboutMe from "./components/AboutMe";
@@ -15,7 +14,6 @@ function App() {
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/process" element={<Process />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />

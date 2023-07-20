@@ -117,22 +117,6 @@ const Header = () => {
             </li>
             <li className="nav-item nav-padding">
               <Link
-                to="/process"
-                className="nav-link"
-                onClick={() => {
-                  setOpen(!open);
-                }}
-                style={{
-                  top: open ? "0" : "120px",
-                  transitionDelay: open ? "1.1s" : "0s",
-                }}
-              >
-                Process
-              </Link>
-              <div className="nav-link-wrapper"></div>
-            </li>
-            <li className="nav-item nav-padding">
-              <Link
                 to="/contact"
                 className="nav-link"
                 onClick={() => {

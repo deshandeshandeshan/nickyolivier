@@ -40,11 +40,6 @@ const Footer = () => {
           </Link>
         </li>
         <li className="footer-list-item footer-text-padding">
-          <Link to="/process" className="footer-nav-links">
-            Process
-          </Link>
-        </li>
-        <li className="footer-list-item footer-text-padding">
           <Link to="/contact" className="footer-nav-links">
             Contact
           </Link>
