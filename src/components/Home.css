@@ -161,7 +161,7 @@
     }
 
     .home-button-padding {
-        padding-bottom: 2rem;
+        padding-bottom: 4rem;
     }
 
     .home-text-align {
@@ -314,10 +314,6 @@
 
     .text-feature-text {
         font-size: 4rem;
-    }
-
-    .home-button-padding {
-        padding-bottom: 3rem;
     }
 
     .text-feature-line-1 {

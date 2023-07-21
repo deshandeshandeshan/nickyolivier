@@ -52,8 +52,12 @@ a {
   border-color: #D9BA5E;
   border-radius: 0;
   text-align: left; 
+  transition: .6s ease-in-out;
 }
 
 .button:hover {
   cursor: pointer;
+  background-color: #D9BA5E;
+  color: #2D3D2E;
+  transition: .6s ease-in-out;
 }

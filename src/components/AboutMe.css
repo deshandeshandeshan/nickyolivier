@@ -12,7 +12,7 @@
     padding-right: 2rem;
 }
 
-.about-me-section-padding, .about-me-button-padding {
+.about-me-section-padding {
     padding-bottom: 2rem;
 }
 
@@ -20,7 +20,7 @@
     padding-bottom: 1rem;
 }
 
-.about-me-intro-text {
+.about-me-intro-text,.about-me-button-padding {
     padding-bottom: 4rem;
 }
 
