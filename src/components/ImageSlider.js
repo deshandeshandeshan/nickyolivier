@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./ImageSlider.css";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 
 const ImageSlider = () => {
   const imageSlides = [
@@ -10,7 +10,7 @@ const ImageSlider = () => {
     },
     {
       image: require("../images/wedding-hair-2.jpg"),
-      title: "Annies wedding hair",
+      title: "Michelles wedding hair",
     },
     {
       image: require("../images/wedding-hair-3.jpg"),
@@ -21,6 +21,8 @@ const ImageSlider = () => {
       title: "Annies wedding hair",
     },
   ];
+
+  console.log(imageSlides);
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -37,7 +39,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div>
+    <div className="home-image-slider">
       <div className="image-slide-container">
         <img
           className="image-slide"
@@ -45,8 +47,12 @@ const ImageSlider = () => {
           alt="woman holding flowers looking out into a lake"
         />
       </div>
-      <FaArrowAltCircleLeft onClick={goToPrev} />
-      <FaArrowAltCircleRight onClick={goToNext} />
+      <p className="image-slide-number">
+        {currentIndex + 1}/{imageSlides.length}
+      </p>
+      <FaAngleLeft onClick={goToPrev} className="image-slider-left-arrow" />
+      <FaAngleRight onClick={goToNext} className="image-slider-right-arrow" />
+      <p className="image-slide-title">{`${imageSlides[currentIndex].title}`}</p>
     </div>
   );
 };
