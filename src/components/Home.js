@@ -71,10 +71,17 @@ const Home = () => {
       <div className="home-devider"></div>
       <div className="home-gallery home-grid">
         <ImageSlider />
+        <p className="home-gallery-text home-body-text home-section-padding home-text-align home-button-padding">
+          Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
+          elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
+          dictum scelerisque. Cras enim consequat ut molestie facilisis risus
+          varius volutpat vitae. Convallis fermentum nec metus etiam massa proin
+          arcu faucibus. In ac aliquam at sed in aliquet.
+        </p>
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">
-            <h3 className="button-heading-text">View gallery</h3>
-            <p>Take a look at some of my work</p>
+            <h3 className="button-heading-text">View full gallery</h3>
+            <p>Take a look at some of my recent work</p>
           </button>
         </Link>
       </div>

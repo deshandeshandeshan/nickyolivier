@@ -47,7 +47,7 @@ const Header = () => {
   });
 
   return (
-    <header className="header">
+    <header className="header" style={{ zIndex: 2 }}>
       <nav
         className={`nav-bar ${showNav ? "nav--active" : "nav--hidden"} ${
           navBackground ? "nav-background--active" : "nav-background--hidden"
@@ -108,7 +108,7 @@ const Header = () => {
                 }}
                 style={{
                   top: open ? "0" : "120px",
-                  transitionDelay: open ? "0.9s" : "0s",
+                  transitionDelay: open ? "1.1s" : "0s",
                 }}
               >
                 Gallery
@@ -124,7 +124,7 @@ const Header = () => {
                 }}
                 style={{
                   top: open ? "0" : "120px",
-                  transitionDelay: open ? "1.3s" : "0s",
+                  transitionDelay: open ? "0.9s" : "0s",
                 }}
               >
                 Contact
@@ -140,7 +140,7 @@ const Header = () => {
                 }}
                 style={{
                   top: open ? "0" : "120px",
-                  transitionDelay: open ? "1.5s" : "0s",
+                  transitionDelay: open ? "1.3s" : "0s",
                 }}
               >
                 About me

@@ -10,15 +10,15 @@ const ImageSlider = () => {
     },
     {
       image: require("../images/wedding-hair-2.jpg"),
-      title: "Michelles wedding hair",
+      title: "Gwens wedding hair",
     },
     {
       image: require("../images/wedding-hair-3.jpg"),
-      title: "Annies wedding hair",
+      title: "Hellens wedding hair",
     },
     {
       image: require("../images/wedding-hair-4.jpg"),
-      title: "Annies wedding hair",
+      title: "Louises wedding hair",
     },
   ];
 
@@ -40,19 +40,21 @@ const ImageSlider = () => {
 
   return (
     <div className="home-image-slider">
-      <div className="image-slide-container">
-        <img
-          className="image-slide"
-          src={`${imageSlides[currentIndex].image}`}
-          alt="woman holding flowers looking out into a lake"
-        />
+      <div className="image-slider">
+        <div className="image-slide-container">
+          <img
+            className="image-slide"
+            src={`${imageSlides[currentIndex].image}`}
+            alt={`${imageSlides[currentIndex].title}`}
+          />
+        </div>
+        <p className="image-slide-number">
+          {currentIndex + 1}/{imageSlides.length}
+        </p>
+        <FaAngleLeft onClick={goToPrev} className="image-slider-left-arrow" />
+        <FaAngleRight onClick={goToNext} className="image-slider-right-arrow" />
+        <p className="image-slide-title">{`${imageSlides[currentIndex].title}`}</p>
       </div>
-      <p className="image-slide-number">
-        {currentIndex + 1}/{imageSlides.length}
-      </p>
-      <FaAngleLeft onClick={goToPrev} className="image-slider-left-arrow" />
-      <FaAngleRight onClick={goToNext} className="image-slider-right-arrow" />
-      <p className="image-slide-title">{`${imageSlides[currentIndex].title}`}</p>
     </div>
   );
 };
