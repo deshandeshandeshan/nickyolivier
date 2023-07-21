@@ -83,6 +83,7 @@ const Home = () => {
           </button>
         </Link>
       </div>
+      <div className="home-devider"></div>
     </main>
   );
 };

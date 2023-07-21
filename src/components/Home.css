@@ -265,7 +265,7 @@
 @media only screen and (min-width: 70rem) {
     .home-grid {
         grid-template-columns: repeat(12, 1fr);
-        padding: 8rem 4.375rem 4rem;
+        padding: 4rem 4.375rem;
     }
 
     .text-feature-text {
