@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import introImage from "../images/wedding-hair-2.jpg";
 import weddingCouple from "../images/wedding-hair-15.jpg";
 import aboutMe from "../images/about-me.png";
-import galleryImage1 from "../images/wedding-hair-1.jpg";
+import ImageSlider from "./ImageSlider";
 import "./Home.css";
 
 const Home = () => {
@@ -70,12 +70,7 @@ const Home = () => {
       </div>
       <div className="home-devider"></div>
       <div className="home-gallery home-grid">
-        <img
-          src={galleryImage1}
-          alt="woman back-side showing off wedding hairstyle"
-          className="home-gallery-image home-section-padding"
-          width="100%"
-        />
+        <ImageSlider className="home-image-slider" />
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">
             <h3 className="button-heading-text">View gallery</h3>
