@@ -8,9 +8,6 @@ import weddingHairImage6 from "../images/wedding-hair-8.jpg";
 import weddingHairImage7 from "../images/wedding-hair-9.jpg";
 import weddingHairImage8 from "../images/wedding-hair-10.jpg";
 import weddingHairImage9 from "../images/wedding-hair-11.jpg";
-import weddingHairImage10 from "../images/wedding-hair-12.jpg";
-import weddingHairImage11 from "../images/wedding-hair-13.jpg";
-import weddingHairImage12 from "../images/wedding-hair-14.jpg";
 
 const Gallery = () => {
   return (
