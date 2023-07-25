@@ -21,7 +21,7 @@ const Home = () => {
         <img
           src={introImage}
           alt="woman holding flowers looking out into a lake"
-          className="home-intro-feature-image home-section-padding"
+          className="home-intro-feature-image home-section-padding image-border"
           width="100%"
         />
         <p className="home-intro-text home-body-text home-section-padding home-button-padding">
@@ -48,7 +48,7 @@ const Home = () => {
         <img
           src={aboutMe}
           alt="potraight of a woman posing amongst flowers"
-          className="home-about-me-image home-section-padding"
+          className="home-about-me-image home-section-padding image-border"
           width="100%"
         />
         <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align">
