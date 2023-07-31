@@ -25,11 +25,9 @@ const Home = () => {
           width="100%"
         />
         <p className="home-intro-text home-body-text home-section-padding home-button-padding">
-          Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
-          elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
-          dictum scelerisque. Cras enim consequat ut molestie facilisis risus
-          varius volutpat vitae. Convallis fermentum nec metus etiam massa proin
-          arcu faucibus. In ac aliquam at sed in aliquet.
+          Kia ora, I'm Nicky and I am a hairstylist based in Upper Hutt,
+          Wellington. I offer professional Wedding Hairstyling in Wellington,
+          Wairarapa and Kapiti.
         </p>
         <Link to="/contact" className="home-intro-contact-button-link">
           <button className="home-intro-contact-button button">
@@ -52,14 +50,14 @@ const Home = () => {
           width="100%"
         />
         <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align">
-          Hello!
+          Hello & Welcome
         </h2>
         <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">
-          Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
-          elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
-          dictum scelerisque. Cras enim consequat ut molestie facilisis risus
-          varius volutpat vitae. Convallis fermentum nec metus etiam massa proin
-          arcu faucibus. In ac aliquam at sed in aliquet.
+          With over 20 years of Hairdressing experience. I have always
+          particularly loved creative styling for as long as I can remember.
+          This led me to specialize in Wedding and occasion Hairstyling about 6
+          years ago. I am passionate and strive for perfection so you can feel
+          your absolute best on your special day.
         </p>
         <Link to="/aboutme" className="home-about-me-button-link">
           <button className="home-about-me-button button">
@@ -72,11 +70,8 @@ const Home = () => {
       <div className="home-gallery home-grid">
         <ImageSlider />
         <p className="home-gallery-text home-body-text home-section-padding home-text-align home-button-padding">
-          Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
-          elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
-          dictum scelerisque. Cras enim consequat ut molestie facilisis risus
-          varius volutpat vitae. Convallis fermentum nec metus etiam massa proin
-          arcu faucibus. In ac aliquam at sed in aliquet.
+          My specialty is in creative, long-lasting Hairstyling with a unique
+          vibe, and flair for Romantic, Boho and Soft glam styles.
         </p>
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">

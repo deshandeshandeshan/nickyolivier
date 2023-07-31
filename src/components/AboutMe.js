@@ -16,11 +16,11 @@ const AboutMe = () => {
           Hello!
         </h2>
         <p className="about-me-intro-text about-me-text-align">
-          Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
-          elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
-          dictum scelerisque. Cras enim consequat ut molestie facilisis risus
-          varius volutpat vitae. Convallis fermentum nec metus etiam massa proin
-          arcu faucibus. In ac aliquam at sed in aliquet.
+          I have been a hairdresser for over 20 years now and I come from an
+          artistic family and background and have a husband and 4 children who
+          are also proving to be very creative. I'm always busy but I manage to
+          have a pretty good balance of work and family life. If I'm not working
+          you might find me baking or cooking.
         </p>
       </div>
 
@@ -33,11 +33,10 @@ const AboutMe = () => {
           className="about-me-main-image about-me-section-padding"
         />
         <p className="about-me-main-text about-me-button-padding about-me-text-align">
-          Lorem ipsum dolor sit amet consectetur. Auctor semper hac eu
-          elementum. Lacus consectetur porttitor pulvinar ac aliquam risus
-          dictum scelerisque. Cras enim consequat ut molestie facilisis risus
-          varius volutpat vitae. Convallis fermentum nec metus etiam massa proin
-          arcu faucibus. In ac aliquam at sed in aliquet.
+          If you are wanting to enquire about Wedding Hairstyling, please use
+          the contact form provided in the contact page. Please make sure to
+          include your wedding date, destination and how many in your bridal
+          party. I would love to hear from you.
         </p>
         <Link to="/contact" className="about-me-main-link">
           <button className="about-me-main-button button">
