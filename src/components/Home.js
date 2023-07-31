@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import introImage from "../images/wedding-hair-2.jpg";
+import introImage from "../finalImages/Home_Hero1.jpg";
 import weddingCouple from "../images/wedding-hair-15.jpg";
 import aboutMe from "../images/about-me.png";
 import ImageSlider from "./ImageSlider";

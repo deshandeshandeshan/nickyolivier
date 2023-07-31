@@ -5,19 +5,23 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 const ImageSlider = () => {
   const imageSlides = [
     {
-      image: require("../images/wedding-hair-1.jpg"),
+      image: require("../finalImages/Image_slider2.jpg"),
+      title: "Zitas wedding hair",
+    },
+    {
+      image: require("../finalImages/Image_slider1.jpg"),
       title: "Annies wedding hair",
     },
     {
-      image: require("../images/wedding-hair-2.jpg"),
-      title: "Gwens wedding hair",
-    },
-    {
-      image: require("../images/wedding-hair-3.jpg"),
+      image: require("../finalImages/Image_slider3.jpg"),
       title: "Hellens wedding hair",
     },
     {
-      image: require("../images/wedding-hair-4.jpg"),
+      image: require("../finalImages/Image_slider4.jpg"),
+      title: "Louises wedding hair",
+    },
+    {
+      image: require("../finalImages/Image_slider5.jpg"),
       title: "Louises wedding hair",
     },
   ];
