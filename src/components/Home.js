@@ -39,8 +39,7 @@ const Home = () => {
       <img
         src={weddingCouple}
         alt="two newly-weds walking through the forest holding hands"
-        className="home-devider-image home-paralax"
-        width="100%"
+        className="home-devider-image"
       />
       <div className="home-about-me home-grid">
         <img
