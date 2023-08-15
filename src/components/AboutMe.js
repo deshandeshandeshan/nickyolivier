@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className="about-me-intro about-me-grid">
         <img
           src={aboutMeIntroImage}
-          alt="woman walking through large field"
+          alt="Company owner sitting in their studio"
           className="about-me-intro-image about-me-section-padding"
         />
         <h2 className="about-me-intro-heading about-me-text-align about-me-text-padding">
