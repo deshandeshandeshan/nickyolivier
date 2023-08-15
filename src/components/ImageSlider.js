@@ -5,7 +5,7 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 const ImageSlider = () => {
   const imageSlides = [
     {
-      image: require("../finalImages/Image_slider2.jpg"),
+      image: require("../finalImages/Image_slider2.webp"),
       title: "Zitas wedding hair",
     },
     {
@@ -13,7 +13,7 @@ const ImageSlider = () => {
       title: "Annies wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider3.jpg"),
+      image: require("../finalImages/Image_slider3.webp"),
       title: "Hellens wedding hair",
     },
     {
