@@ -14,7 +14,9 @@ const Footer = () => {
       <div className="footer-details footer-grid-item-b">
         <ul className="footer-contact-details">
           <li className="contact-list-item footer-text-padding">
-            <a href="mailto:hello@nickyolivier.com">hello@nickyolivier.com</a>
+            <a href="mailto:weddinghair@nickyolivier.com">
+              hello@nickyolivier.com
+            </a>
           </li>
           <li className="contact-list-item footer-text-padding">
             <Link to="https://www.instagram.com/styledbynicky_o/">
