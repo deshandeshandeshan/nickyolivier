@@ -1,11 +1,11 @@
 import "./Gallery.css";
-import weddingHairImage1 from "../finalImages/Gallery (1).jpg";
-import weddingHairImage2 from "../finalImages/Gallery (2).jpg";
-import weddingHairImage3 from "../finalImages/Gallery (3).jpg";
-import weddingHairImage4 from "../finalImages/Gallery (4).jpg";
-import weddingHairImage5 from "../finalImages/Gallery (5).jpg";
-import weddingHairImage6 from "../finalImages/Gallery (6).jpg";
-import weddingHairImage7 from "../finalImages/Gallery (7).jpg";
+import weddingHairImage1 from "../finalImages/Gallery (1).webp";
+import weddingHairImage2 from "../finalImages/Gallery (2).webp";
+import weddingHairImage3 from "../finalImages/Gallery (3).webp";
+import weddingHairImage4 from "../finalImages/Gallery (4).webp";
+import weddingHairImage5 from "../finalImages/Gallery (5).webp";
+import weddingHairImage6 from "../finalImages/Gallery (6).webp";
+import weddingHairImage7 from "../finalImages/Gallery (7).webp";
 import weddingHairImage8 from "../finalImages/Gallery (8).webp";
 import weddingHairImage9 from "../finalImages/Gallery (9).webp";
 import weddingHairImage10 from "../finalImages/Gallery (10).webp";
@@ -13,12 +13,11 @@ import weddingHairImage11 from "../finalImages/Gallery (11).webp";
 import weddingHairImage12 from "../finalImages/Gallery (12).webp";
 import weddingHairImage13 from "../finalImages/Gallery (13).webp";
 import weddingHairImage14 from "../finalImages/Gallery (14).webp";
-import weddingHairImage15 from "../finalImages/Gallery (15).jpg";
-import weddingHairImage16 from "../finalImages/Gallery (16).jpg";
-import weddingHairImage17 from "../finalImages/Gallery (17).jpg";
-import weddingHairImage18 from "../finalImages/Gallery (18).jpg";
+import weddingHairImage15 from "../finalImages/Gallery (15).webp";
+import weddingHairImage16 from "../finalImages/Gallery (16).webp";
+import weddingHairImage17 from "../finalImages/Gallery (17).webp";
+import weddingHairImage18 from "../finalImages/Gallery (18).webp";
 import weddingHairImage19 from "../finalImages/Gallery (19).webp";
-import weddingHairImage20 from "../finalImages/Gallery (20).jpg";
 
 const Gallery = () => {
   return (
@@ -119,13 +118,6 @@ const Gallery = () => {
           </div>
           <div className="gallery-image-wrapper">
             <img src={weddingHairImage16} alt="" className="gallery-image" />
-            {/* <div className="gallery-image-overlay" />
-            <div className="gallery-overlay-text">
-              <h2>Wedding hair</h2>
-            </div> */}
-          </div>
-          <div className="gallery-image-wrapper">
-            <img src={weddingHairImage20} alt="" className="gallery-image" />
             {/* <div className="gallery-image-overlay" />
             <div className="gallery-overlay-text">
               <h2>Wedding hair</h2>

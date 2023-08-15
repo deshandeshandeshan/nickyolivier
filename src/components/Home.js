@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import introImage from "../finalImages/Home_Hero1.jpg";
-import weddingCouple from "../images/wedding-hair-15.jpg";
-import aboutMe from "../images/about-me.png";
+import introImage from "../finalImages/Home_Hero1.webp";
+import weddingCouple from "../images/wedding-hair-15.webp";
+import aboutMe from "../images/about-me.webp";
 import ImageSlider from "./ImageSlider";
 import "./Home.css";
 
