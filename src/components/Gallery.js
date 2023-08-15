@@ -6,18 +6,18 @@ import weddingHairImage4 from "../finalImages/Gallery (4).jpg";
 import weddingHairImage5 from "../finalImages/Gallery (5).jpg";
 import weddingHairImage6 from "../finalImages/Gallery (6).jpg";
 import weddingHairImage7 from "../finalImages/Gallery (7).jpg";
-import weddingHairImage8 from "../finalImages/Gallery (8).jpg";
-import weddingHairImage9 from "../finalImages/Gallery (9).jpg";
-import weddingHairImage10 from "../finalImages/Gallery (10).jpg";
-import weddingHairImage11 from "../finalImages/Gallery (11).jpg";
-import weddingHairImage12 from "../finalImages/Gallery (12).jpg";
-import weddingHairImage13 from "../finalImages/Gallery (13).jpg";
-import weddingHairImage14 from "../finalImages/Gallery (14).jpg";
+import weddingHairImage8 from "../finalImages/Gallery (8).webp";
+import weddingHairImage9 from "../finalImages/Gallery (9).webp";
+import weddingHairImage10 from "../finalImages/Gallery (10).webp";
+import weddingHairImage11 from "../finalImages/Gallery (11).webp";
+import weddingHairImage12 from "../finalImages/Gallery (12).webp";
+import weddingHairImage13 from "../finalImages/Gallery (13).webp";
+import weddingHairImage14 from "../finalImages/Gallery (14).webp";
 import weddingHairImage15 from "../finalImages/Gallery (15).jpg";
 import weddingHairImage16 from "../finalImages/Gallery (16).jpg";
 import weddingHairImage17 from "../finalImages/Gallery (17).jpg";
 import weddingHairImage18 from "../finalImages/Gallery (18).jpg";
-import weddingHairImage19 from "../finalImages/Gallery (19).jpg";
+import weddingHairImage19 from "../finalImages/Gallery (19).webp";
 import weddingHairImage20 from "../finalImages/Gallery (20).jpg";
 
 const Gallery = () => {

@@ -9,7 +9,7 @@ const ImageSlider = () => {
       title: "Zitas wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider1.jpg"),
+      image: require("../finalImages/Image_slider1.webp"),
       title: "Annies wedding hair",
     },
     {
@@ -17,11 +17,11 @@ const ImageSlider = () => {
       title: "Hellens wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider4.jpg"),
+      image: require("../finalImages/Image_slider4.webp"),
       title: "Louises wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider5.jpg"),
+      image: require("../finalImages/Image_slider5.webp"),
       title: "Louises wedding hair",
     },
   ];
