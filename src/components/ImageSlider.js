@@ -57,7 +57,7 @@ const ImageSlider = () => {
         </p>
         <FaAngleLeft onClick={goToPrev} className="image-slider-left-arrow" />
         <FaAngleRight onClick={goToNext} className="image-slider-right-arrow" />
-        <p className="image-slide-title">{`${imageSlides[currentIndex].title}`}</p>
+        {/* <p className="image-slide-title">{`${imageSlides[currentIndex].title}`}</p> */}
       </div>
     </div>
   );
