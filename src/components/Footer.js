@@ -15,7 +15,7 @@ const Footer = () => {
         <ul className="footer-contact-details">
           <li className="contact-list-item footer-text-padding">
             <a href="mailto:weddinghair@nickyolivier.com">
-              hello@nickyolivier.com
+              weddinghair@nickyolivier.com
             </a>
           </li>
           <li className="contact-list-item footer-text-padding">

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import aboutMeIntroImage from "../images/in-nature.jpg";
-import hairStyling from "../images/hair-styling.jpg";
+import aboutMeIntroImage from "../images/about-me.webp";
+import hairStyling from "../images/hair-styling.webp";
 import "./AboutMe.css";
 
 const AboutMe = () => {
@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className="about-me-intro about-me-grid">
         <img
           src={aboutMeIntroImage}
-          alt="woman walking through large field"
+          alt="Company owner sitting in their studio"
           className="about-me-intro-image about-me-section-padding"
         />
         <h2 className="about-me-intro-heading about-me-text-align about-me-text-padding">

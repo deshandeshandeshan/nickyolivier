@@ -5,23 +5,23 @@ import { FaAngleRight, FaAngleLeft } from "react-icons/fa";
 const ImageSlider = () => {
   const imageSlides = [
     {
-      image: require("../finalImages/Image_slider2.jpg"),
+      image: require("../finalImages/Image_slider2.webp"),
       title: "Zitas wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider1.jpg"),
+      image: require("../finalImages/Image_slider1.webp"),
       title: "Annies wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider3.jpg"),
+      image: require("../finalImages/Image_slider3.webp"),
       title: "Hellens wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider4.jpg"),
+      image: require("../finalImages/Image_slider4.webp"),
       title: "Louises wedding hair",
     },
     {
-      image: require("../finalImages/Image_slider5.jpg"),
+      image: require("../finalImages/Image_slider5.webp"),
       title: "Louises wedding hair",
     },
   ];
@@ -57,7 +57,7 @@ const ImageSlider = () => {
         </p>
         <FaAngleLeft onClick={goToPrev} className="image-slider-left-arrow" />
         <FaAngleRight onClick={goToNext} className="image-slider-right-arrow" />
-        <p className="image-slide-title">{`${imageSlides[currentIndex].title}`}</p>
+        {/* <p className="image-slide-title">{`${imageSlides[currentIndex].title}`}</p> */}
       </div>
     </div>
   );
