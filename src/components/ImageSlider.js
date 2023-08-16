@@ -26,8 +26,6 @@ const ImageSlider = () => {
     },
   ];
 
-  console.log(imageSlides);
-
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToPrev = () => {
