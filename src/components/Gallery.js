@@ -18,6 +18,7 @@ import weddingHairImage16 from "../finalImages/Gallery (16).webp";
 import weddingHairImage17 from "../finalImages/Gallery (17).webp";
 import weddingHairImage18 from "../finalImages/Gallery (18).webp";
 import weddingHairImage19 from "../finalImages/Gallery (19).webp";
+import weddingHairImage20 from "../finalImages/Home_Hero1.webp";
 
 const Gallery = () => {
   return (
@@ -97,6 +98,13 @@ const Gallery = () => {
           </div>
           <div className="gallery-image-wrapper">
             <img src={weddingHairImage6} alt="" className="gallery-image" />
+            {/* <div className="gallery-image-overlay" />
+            <div className="gallery-overlay-text">
+              <h2>Wedding hair</h2>
+            </div> */}
+          </div>
+          <div className="gallery-image-wrapper">
+            <img src={weddingHairImage20} alt="" className="gallery-image" />
             {/* <div className="gallery-image-overlay" />
             <div className="gallery-overlay-text">
               <h2>Wedding hair</h2>
