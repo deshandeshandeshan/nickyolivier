@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import introImage from "../finalImages/Home_Hero1.webp";
+import introImage from "../images/home-hero.webp";
 import weddingCouple from "../images/wedding-hair-15.webp";
 import aboutMe from "../images/about-me.webp";
 import ImageSlider from "./ImageSlider";
@@ -24,7 +24,7 @@ const Home = () => {
           className="home-intro-feature-image home-section-padding image-border"
           width="100%"
         />
-        <p className="home-intro-text home-body-text home-section-padding home-button-padding">
+        <p className="home-intro-text home-body-text home-section-padding home-button-padding padding-top">
           Kia ora, I'm Nicky and I am a hairstylist based in Upper Hutt,
           Wellington. I offer professional Wedding Hairstyling in Wellington,
           Wairarapa and Kapiti.
@@ -48,7 +48,7 @@ const Home = () => {
           className="home-about-me-image home-section-padding image-border"
           width="100%"
         />
-        <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align">
+        <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align padding-top">
           Hello & Welcome
         </h2>
         <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">

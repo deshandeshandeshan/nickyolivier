@@ -23,6 +23,10 @@
     padding-bottom: .5rem;
 }
 
+.padding-top {
+    padding-top: 2rem;
+}
+
 .home-devider {
     display: block;
     height: .1rem;
@@ -53,7 +57,7 @@
 
 .home-image-slider {
     margin: 0 auto;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .home-intro-section {
@@ -166,9 +170,9 @@
         padding-top: 6rem;
     }
     
-    /* .home-section-padding {
-        padding-bottom: 0;
-    } */
+    .padding-top {
+        padding-top: 0rem;
+    }
 
     .text-feature-text {
         padding-bottom: 1rem;
