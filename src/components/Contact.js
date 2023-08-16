@@ -6,7 +6,8 @@ const Contact = () => {
       <div className="contact-container">
         <h1 className="contact-intro-heading">Get in touch with me!</h1>
         <p className="contact-intro-text contact-section-padding">
-          Send me a message and I'll get back to you as soon as possible!
+          I would love to hear from you regarding your special day. Send me a
+          message and I'll get back to you as soon as possible!
         </p>
         <form
           className="contact-form"
@@ -26,6 +27,38 @@ const Contact = () => {
             type="text"
             id="email"
             name="email"
+            className="input-field email-input-field contact-form-padding contact-form-text-padding"
+          />
+
+          <label htmlFor="bridalParty">Bridal party size:</label>
+          <select
+            id="bridalParty"
+            name="bridalParty"
+            className="input-field email-input-field contact-form-padding contact-form-text-padding"
+          >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+          </select>
+
+          <label htmlFor="weddingDate">Wedding date (dd/mm/yyyy):</label>
+          <input
+            type="text"
+            id="weddingDate"
+            name="weddingDate"
+            className="input-field email-input-field contact-form-padding contact-form-text-padding"
+          />
+
+          <label htmlFor="destination">Destination:</label>
+          <input
+            type="text"
+            id="destination"
+            name="destination"
             className="input-field email-input-field contact-form-padding contact-form-text-padding"
           />
 
