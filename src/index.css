@@ -51,7 +51,8 @@ a {
   color: #D9BA5E;
   border: solid;
   border-color: #D9BA5E;
-  border-radius: 0;
+  border-radius: 1rem;
+  border-width: .2rem;
   text-align: left; 
   transition: .6s ease-in-out;
 }
