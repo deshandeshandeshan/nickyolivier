@@ -16,11 +16,12 @@ const AboutMe = () => {
           Hello!
         </h2>
         <p className="about-me-intro-text about-me-text-align">
-          I have been a hairdresser for over 20 years now and I come from an
-          artistic family and background and have a husband and 4 children who
-          are also proving to be very creative. I'm always busy but I manage to
-          have a pretty good balance of work and family life. If I'm not working
-          you might find me baking or cooking.
+          I live in Wellington with my husband and children. I find creative
+          inspiration everyday. Im a lover of music, food, and good wine.
+          Wedding and occasion hair is a unique and creative niche. Its what I
+          love most about my job. With over 20 years in the hairdressing
+          industry, styling is a huge part of who I am. I pride myself in my
+          skill and I love being a part of such a special day.
         </p>
       </div>
 

@@ -6,6 +6,10 @@
     height: 7rem;
 }
 
+.footer a:hover {
+    text-decoration: underline;
+}
+
 .mobile-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
