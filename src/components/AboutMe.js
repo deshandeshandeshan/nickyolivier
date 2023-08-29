@@ -17,9 +17,8 @@ const AboutMe = () => {
         </h2>
         <p className="about-me-intro-text about-me-text-align">
           I live in Wellington with my husband and children. I find creative
-          inspiration everyday. Im a lover of music, food, and good wine.
-          Wedding and occasion hair is a unique and creative niche. Its what I
-          love most about my job. With over 20 years in the hairdressing
+          inspiration in everything I do. I'm a lover of music, food and good wine.
+          Wedding and occasion hair is a unique and creative niche that I love. With over 20 years in the hairdressing
           industry, styling is a huge part of who I am. I pride myself in my
           skill and I love being a part of such a special day.
         </p>
