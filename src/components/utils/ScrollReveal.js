@@ -5,7 +5,7 @@ export const Reveal = ({ children }) => {
   const mainControls = useAnimation();
 
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (isInView) {
