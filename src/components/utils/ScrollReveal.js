@@ -2,11 +2,11 @@ import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 
 export const Reveal = ({ children }) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
   const mainControls = useAnimation();
   const slideControls = useAnimation();
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (isInView) {

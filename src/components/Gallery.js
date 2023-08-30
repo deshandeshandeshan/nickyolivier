@@ -1,5 +1,4 @@
 import "./Gallery.css";
-import { Reveal } from "./utils/ScrollReveal";
 
 import weddingHairImage1 from "../finalImages/Gallery (1).webp";
 import weddingHairImage2 from "../finalImages/Gallery (2).webp";
@@ -21,6 +20,8 @@ import weddingHairImage17 from "../finalImages/Gallery (17).webp";
 import weddingHairImage18 from "../finalImages/Gallery (18).webp";
 import weddingHairImage19 from "../finalImages/Gallery (19).webp";
 import weddingHairImage20 from "../finalImages/Home_Hero1.webp";
+
+import { Reveal } from "./utils/ScrollReveal";
 
 const Gallery = () => {
   return (
