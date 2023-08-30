@@ -1,5 +1,4 @@
 import "./Gallery.css";
-
 import weddingHairImage1 from "../finalImages/Gallery (1).webp";
 import weddingHairImage2 from "../finalImages/Gallery (2).webp";
 import weddingHairImage3 from "../finalImages/Gallery (3).webp";
