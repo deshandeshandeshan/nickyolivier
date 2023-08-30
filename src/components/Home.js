@@ -52,10 +52,10 @@ const Home = () => {
           Hello & Welcome
         </h2>
         <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">
-          With over 20 years of Hairdressing experience. I have always
-          particularly loved creative styling for as long as I can remember.
-          This led me to specialize in Wedding and occasion Hairstyling about 6
-          years ago. I am passionate and strive for perfection so you can feel
+          With over 20 years of Hairdressing experience I have always
+          had a passion for creative styling.
+          This led me to specialize in wedding and occasion hairstyling about 6
+          years ago. I strive for perfection so you can feel
           your absolute best on your special day.
         </p>
         <Link to="/aboutme" className="home-about-me-button-link">
@@ -69,8 +69,8 @@ const Home = () => {
       <div className="home-gallery home-grid">
         <ImageSlider />
         <p className="home-gallery-text home-body-text home-section-padding home-text-align home-button-padding">
-          My specialty is in creative, long-lasting Hairstyling with a unique
-          vibe, and flair for Romantic, Boho and Soft glam styles.
+          My specialty is in creative, long-lasting hairstyling with a unique
+          vibe, and flair for romantic, boho and soft glam styles.
         </p>
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">
