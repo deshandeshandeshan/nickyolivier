@@ -23,6 +23,89 @@ import weddingHairImage20 from "../finalImages/Home_Hero1.webp";
 import { Reveal } from "./utils/ScrollReveal";
 
 const Gallery = () => {
+  const imgData = [
+    {
+      id: 1,
+      imgSrc: weddingHairImage1,
+    },
+    {
+      id: 1,
+      imgSrc: weddingHairImage2,
+    },
+    {
+      id: 3,
+      imgSrc: weddingHairImage3,
+    },
+    {
+      id: 4,
+      imgSrc: weddingHairImage4,
+    },
+    {
+      id: 5,
+      imgSrc: weddingHairImage5,
+    },
+    {
+      id: 6,
+      imgSrc: weddingHairImage6,
+    },
+    {
+      id: 7,
+      imgSrc: weddingHairImage7,
+    },
+    {
+      id: 8,
+      imgSrc: weddingHairImage8,
+    },
+    {
+      id: 9,
+      imgSrc: weddingHairImage9,
+    },
+    {
+      id: 10,
+      imgSrc: weddingHairImage10,
+    },
+    {
+      id: 11,
+      imgSrc: weddingHairImage11,
+    },
+    {
+      id: 12,
+      imgSrc: weddingHairImage12,
+    },
+    {
+      id: 13,
+      imgSrc: weddingHairImage13,
+    },
+    {
+      id: 14,
+      imgSrc: weddingHairImage14,
+    },
+    {
+      id: 15,
+      imgSrc: weddingHairImage15,
+    },
+    {
+      id: 16,
+      imgSrc: weddingHairImage16,
+    },
+    {
+      id: 17,
+      imgSrc: weddingHairImage17,
+    },
+    {
+      id: 18,
+      imgSrc: weddingHairImage18,
+    },
+    {
+      id: 19,
+      imgSrc: weddingHairImage19,
+    },
+    {
+      id: 20,
+      imgSrc: weddingHairImage20,
+    },
+  ];
+
   return (
     <main className="gallery">
       <div className="gallery-intro-grid">
@@ -32,129 +115,13 @@ const Gallery = () => {
         </p>
       </div>
       <div className="gallery-image-layout">
-        <div className="gallery-column">
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage1} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage2} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage3} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage10} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage13} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage14} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage19} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-        </div>
-        <div className="gallery-column">
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage4} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage5} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage6} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage20} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage11} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage15} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage16} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-        </div>
-        <div className="gallery-column">
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage7} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage8} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage9} alt="" className="gallery-image" />
-            </Reveal>{" "}
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage12} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage17} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-
-          <div className="gallery-image-wrapper">
-            <Reveal>
-              <img src={weddingHairImage18} alt="" className="gallery-image" />
-            </Reveal>
-          </div>
-        </div>
+        {imgData.map((item, index) => {
+          return (
+            <div className="" key={index}>
+              <img src={item.imgSrc} alt="" />
+            </div>
+          );
+        })}
       </div>
     </main>
   );
