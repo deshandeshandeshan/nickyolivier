@@ -117,9 +117,11 @@ const Gallery = () => {
       <div className="gallery-image-layout">
         {imgData.map((item, index) => {
           return (
-            <div className="" key={index}>
-              <img src={item.imgSrc} alt="" />
-            </div>
+            <Reveal>
+              <div className="" key={index}>
+                <img className="gallery-images" src={item.imgSrc} alt="" />
+              </div>
+            </Reveal>
           );
         })}
       </div>
