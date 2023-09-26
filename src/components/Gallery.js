@@ -25,9 +25,6 @@ const Gallery = () => {
     <main className="gallery">
       <div className="gallery-intro-grid">
         <h1 className="gallery-heading gallery-text-align">Gallery</h1>
-        <p className="gallery-intro-text gallery-text-align">
-          Here is a collection of some of the hairstyles I have created so far!
-        </p>
       </div>
       <div className="gallery-image-layout">
         <div className="gallery-column">
