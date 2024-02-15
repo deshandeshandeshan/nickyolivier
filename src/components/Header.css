@@ -9,6 +9,7 @@
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
+  color: #2d3d2e;
 }
 
 .nav-bar {
@@ -104,6 +105,10 @@
   transform: rotate(225deg);
 }
 
+.spin {
+  background-color: #2d3d2e;
+}
+
 .nav-link-wrapper:after {
   content: "";
   position: absolute;
@@ -111,12 +116,12 @@
   width: 120%;
   height: 100%;
   margin: 0 auto;
-  background: #2d3d2e;
+  background: #e3ddd8;
 }
 
 .nav-overlay {
   position: fixed;
-  background: #2d3d2e;
+  background: #e3ddd8;
   z-index: -2;
   left: 0;
   width: 100%;
