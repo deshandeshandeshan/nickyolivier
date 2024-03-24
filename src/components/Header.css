@@ -9,7 +9,7 @@
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
-  color: #2d3d2e;
+  color: #e3ddd8;
 }
 
 .nav-bar {
@@ -77,7 +77,7 @@
 
 .bar1,
 .bar2 {
-  background-color: #e8e9eb;
+  background-color: #e3ddd8;
   border-radius: 1em;
   width: 2rem;
   height: 0.25rem;
@@ -106,7 +106,7 @@
 }
 
 .spin {
-  background-color: #2d3d2e;
+  background-color: #e3ddd8;
 }
 
 .nav-link-wrapper:after {
@@ -116,12 +116,12 @@
   width: 120%;
   height: 100%;
   margin: 0 auto;
-  background: #e3ddd8;
+  background: #2d3d2e;
 }
 
 .nav-overlay {
   position: fixed;
-  background: #e3ddd8;
+  background: #2d3d2e;
   z-index: -2;
   left: 0;
   width: 100%;

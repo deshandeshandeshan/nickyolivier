@@ -9,14 +9,9 @@ const Home = () => {
   return (
     <main className="home">
       <div className="home-intro home-grid">
-        <h1 className="text-feature-text text-feature-line-1 home-heading-text">
-          Creating <i>beautiful</i> hairstyles
-        </h1>
-        <h1 className="text-feature-text text-feature-line-2 home-heading-text">
-          to be picture perfect
-        </h1>
-        <h1 className="text-feature-text text-feature-line-3 home-heading-text">
-          on your <i>wedding</i> day
+        <h1 className="text-feature-text text-feature home-heading-text">
+          Creating <i>beautiful</i> hairstyles to be picture perfect on your{" "}
+          <i>wedding</i> day
         </h1>
         <img
           src={introImage}
@@ -36,11 +31,6 @@ const Home = () => {
           </button>
         </Link>
       </div>
-      <img
-        src={weddingCouple}
-        alt="two newly-weds walking through the forest holding hands"
-        className="home-devider-image"
-      />
       <div className="home-about-me home-grid">
         <img
           src={aboutMe}
@@ -48,15 +38,14 @@ const Home = () => {
           className="home-about-me-image home-section-padding image-border"
           width="100%"
         />
-        <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align padding-top">
+        <h2 className="home-about-me-heading home-text-padding home-text-align home-heading-text padding-top">
           Hello & Welcome
         </h2>
         <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">
-          With over 20 years of Hairdressing experience I have always
-          had a passion for creative styling.
-          This led me to specialize in wedding and occasion hairstyling about 6
-          years ago. I strive for perfection so you can feel
-          your absolute best on your special day.
+          With over 20 years of Hairdressing experience I have always had a
+          passion for creative styling. This led me to specialize in wedding and
+          occasion hairstyling about 6 years ago. I strive for perfection so you
+          can feel your absolute best on your special day.
         </p>
         <Link to="/aboutme" className="home-about-me-button-link">
           <button className="home-about-me-button button">
@@ -65,13 +54,12 @@ const Home = () => {
           </button>
         </Link>
       </div>
-      <div className="home-devider"></div>
       <div className="home-gallery home-grid">
-        <ImageSlider />
-        <p className="home-gallery-text home-body-text home-section-padding home-text-align home-button-padding">
+        <h1 className="home-gallery-text home-section-padding home-heading-text">
           My specialty is in creative, long-lasting hairstyling with a unique
           vibe, and flair for romantic, boho and soft glam styles.
-        </p>
+        </h1>
+        <ImageSlider />
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">
             <h3 className="button-heading-text">View full gallery</h3>
@@ -79,7 +67,6 @@ const Home = () => {
           </button>
         </Link>
       </div>
-      <div className="home-devider"></div>
     </main>
   );
 };

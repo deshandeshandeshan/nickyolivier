@@ -1,24 +1,24 @@
 .home {
-  background-color: #2d3d2e;
+  background-color: #e3ddd8;
   padding-top: 9rem;
 }
 
 .home-body-text,
 .home-heading-text {
-  color: #e8e9eb;
+  color: #2d3d2e;
 }
 
-.text-feature-text {
+.home-heading-text {
   font-size: 1.6rem;
 }
 
-.home-text-align,
+/* .home-text-align,
 .text-feature-text {
   text-align: center;
-}
+} */
 
 .home-section-padding {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .home-text-padding {
@@ -29,25 +29,8 @@
   padding-top: 2rem;
 }
 
-.home-devider {
-  display: block;
-  height: 0.2rem;
-  background-color: #e8e9eb;
-  margin: 0 2rem;
-}
-
 .image-border {
-  border-style: solid;
-  border-width: 0.2rem;
-  border-color: #e8e9eb;
-  padding: 0.8rem;
-  border-radius: 1rem;
-}
-
-.home-devider-image {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  border-radius: 2rem;
 }
 
 .home-grid {
@@ -66,48 +49,30 @@
   grid-template-rows: repeat(7, auto);
 }
 
-.text-feature-line-1 {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
+.text-feature {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
 }
 
-.text-feature-line-2 {
+.home-intro-feature-image {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
-.text-feature-line-3 {
+.home-intro-text {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
-  padding-bottom: 2rem;
-  z-index: 1;
-}
-
-.home-intro-feature-image {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.home-intro-text {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 5;
-  grid-row-end: 6;
 }
 
 .home-intro-contact-button-link {
   grid-column-start: 1;
   grid-column-end: 5;
-  grid-row-start: 6;
-  grid-row-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 .home-about-me {
@@ -197,7 +162,7 @@
     grid-template-rows: repeat(6, auto);
   }
 
-  .text-feature-text {
+  .home-heading-text {
     font-size: 2.3rem;
   }
 
@@ -207,25 +172,9 @@
     margin: 0;
   }
 
-  .text-feature-line-1 {
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-
-  .text-feature-line-2 {
-    grid-column-start: 5;
-    grid-column-end: 9;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-
-  .text-feature-line-3 {
-    grid-column-start: 3;
-    grid-column-end: 8;
-    grid-row-start: 3;
-    grid-row-end: 4;
+  .text-feature {
+    grid-column: 1 / 9;
+    grid-row: 1 / 2;
   }
 
   .home-intro-feature-image {
@@ -314,50 +263,34 @@
     padding: 4rem 4.375rem;
   }
 
-  .text-feature-text {
-    font-size: 4rem;
+  .home-heading-text {
+    font-size: 5rem;
   }
 
-  .text-feature-line-1 {
-    grid-column-start: 2;
-    grid-column-end: 11;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-
-  .text-feature-line-2 {
-    grid-column-start: 6;
-    grid-column-end: 13;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-
-  .text-feature-line-3 {
-    grid-column-start: 5;
-    grid-column-end: 11;
-    grid-row-start: 3;
-    grid-row-end: 4;
+  .text-feature {
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
   }
 
   .home-intro-feature-image {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 8;
+    grid-row-end: 4;
   }
 
   .home-intro-text {
     grid-column-start: 8;
     grid-column-end: 12;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
   }
 
   .home-intro-contact-button-link {
     grid-column-start: 8;
     grid-column-end: 12;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
   }
 
   .home-about-me {
@@ -397,18 +330,16 @@
     grid-template-rows: repeat(4, auto);
   }
 
-  .home-image-slider {
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 5;
+  .home-gallery-text {
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
   }
 
-  .home-gallery-text {
-    grid-column-start: 8;
-    grid-column-end: 12;
+  .home-image-slider {
+    grid-column-start: 1;
+    grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 5;
   }
 
   .home-gallery-button-link {
