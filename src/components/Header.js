@@ -7,7 +7,6 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [showNav, setShowNav] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [navBackground, setNavBackground] = useState(false);
 
   const controlNavBar = () => {
     if (window.scrollY > lastScrollY && lastScrollY >= 0) {
@@ -27,30 +26,21 @@ const Header = () => {
     setLastScrollY(window.scrollY);
   };
 
-  const removeBackgroundOnScroll = () => {
-    if (window.scrollY > 200) {
-      setNavBackground(true);
-    } else {
-      setNavBackground(false);
-    }
-  };
-
   useEffect(() => {
     window.addEventListener("scroll", controlNavBar);
     window.addEventListener("scroll", closeNavOnScroll);
-    window.addEventListener("scroll", removeBackgroundOnScroll);
+
     return () => {
       window.removeEventListener("scroll", controlNavBar);
       window.addEventListener("scroll", closeNavOnScroll);
-      window.addEventListener("scroll", removeBackgroundOnScroll);
     };
   });
 
   return (
     <header className="header" style={{ zIndex: 2 }}>
       <nav
-        className={`nav-bar ${showNav ? "nav--active" : "nav--hidden"} ${
-          navBackground ? "nav-background--active" : "nav-background--hidden"
+        className={`nav-bar nav-background ${
+          showNav ? "nav--active" : "nav--hidden"
         }`}
       >
         <div className="nav-grid">
@@ -66,7 +56,6 @@ const Header = () => {
             className="hamburger-grid-item"
             onClick={() => {
               setOpen(!open);
-              setNavBackground(true);
             }}
           >
             <div className="hamburger">

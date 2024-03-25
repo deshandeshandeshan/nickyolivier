@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import introImage from "../images/home-hero.webp";
-import weddingCouple from "../images/wedding-hair-15.webp";
 import aboutMe from "../images/about-me.webp";
 import ImageSlider from "./ImageSlider";
 import "./Home.css";
