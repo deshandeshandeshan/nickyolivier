@@ -4,11 +4,12 @@
 }
 
 .home-body-text,
-.home-heading-text {
+.heading-1,
+.heading-2 {
   color: #2d3d2e;
 }
 
-.home-heading-text {
+.heading-1 {
   font-size: 1.6rem;
 }
 
@@ -66,13 +67,6 @@
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 4;
-}
-
-.home-intro-contact-button-link {
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 5;
 }
 
 .home-about-me {
@@ -133,6 +127,10 @@
 }
 
 @media only screen and (min-width: 50rem) {
+  .home-section-padding {
+    margin-bottom: 0rem;
+  }
+
   .home {
     padding-top: 6rem;
   }
@@ -142,7 +140,7 @@
   }
 
   .text-feature-text {
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
   }
 
   .home-button-padding {
@@ -162,7 +160,7 @@
     grid-template-rows: repeat(6, auto);
   }
 
-  .home-heading-text {
+  .heading-1 {
     font-size: 2.3rem;
   }
 
@@ -189,13 +187,6 @@
     grid-column-end: 9;
     grid-row-start: 5;
     grid-row-end: 6;
-  }
-
-  .home-intro-contact-button-link {
-    grid-column-start: 6;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
   }
 
   .home-about-me {
@@ -263,8 +254,24 @@
     padding: 4rem 4.375rem;
   }
 
-  .home-heading-text {
-    font-size: 5rem;
+  .heading-1 {
+    font-size: 7rem;
+    letter-spacing: -0.2rem;
+    line-height: 7.5rem;
+  }
+
+  .home-body-text {
+    font-size: 1.5rem;
+  }
+
+  .button-heading-text {
+    font-size: 1.8rem;
+  }
+
+  .home-intro-text,
+  .home-about-me-content,
+  .home-button-align {
+    align-self: end;
   }
 
   .text-feature {
@@ -274,9 +281,9 @@
 
   .home-intro-feature-image {
     grid-column-start: 1;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-end: 3;
   }
 
   .home-intro-text {
@@ -286,44 +293,24 @@
     grid-row-end: 3;
   }
 
-  .home-intro-contact-button-link {
-    grid-column-start: 8;
-    grid-column-end: 12;
-    grid-row-start: 3;
-    grid-row-end: 4;
-  }
-
-  .home-about-me {
-    grid-template-rows: repeat(6, auto);
-  }
-
   .home-about-me-image {
     grid-column-start: 8;
     grid-column-end: 12;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 3;
     min-width: 20rem;
   }
 
-  .home-about-me-heading {
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-
-  .home-about-me-text {
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 3;
-    grid-row-end: 4;
+  .home-about-me-content {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
   }
 
   .home-about-me-button-link {
-    grid-column-start: 2;
-    grid-column-end: 6;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-column: 1/4;
+    grid-row: 2/3;
   }
 
   .home-gallery {
