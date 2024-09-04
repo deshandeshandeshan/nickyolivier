@@ -15,18 +15,15 @@ const Home = () => {
         <img
           src={introImage}
           alt="woman holding flowers looking out into a lake"
-          className="home-intro-feature-image home-section-padding image-border"
+          className="home-intro-feature-image image-border home-image-margin"
           width="100%"
         />
-        <p className="home-intro-text home-body-text home-section-padding padding-top">
+        <p className="home-intro-text home-body-text home-section-padding">
           Kia ora, I'm Nicky and I am a hairstylist based in Upper Hutt,
           Wellington. I offer professional Wedding Hairstyling in Wellington,
           Wairarapa and Kapiti.
         </p>
-        <Link
-          to="/contact"
-          className="home-intro-contact-button-link home-button-align"
-        >
+        <Link to="/contact" className="home-intro-contact-button-link">
           <button className="home-intro-contact-button button">
             <h3 className="button-heading-text">Contact me</h3>
             <p className="button-body-text">Enquire about your special day</p>
@@ -37,24 +34,21 @@ const Home = () => {
         <img
           src={aboutMe}
           alt="potraight of a woman posing amongst flowers"
-          className="home-about-me-image home-section-padding image-border"
+          className="home-about-me-image image-border home-image-margin"
           width="100%"
         />
         <div className="home-about-me-content">
           <h2 className="home-about-me-heading home-text-padding home-text-align heading-2">
             Hello & Welcome
           </h2>
-          <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">
+          <p className="home-about-me-text home-body-text home-section-padding home-text-align">
             With over 20 years of Hairdressing experience I have always had a
             passion for creative styling. This led me to specialize in wedding
             and occasion hairstyling about 6 years ago. I strive for perfection
             so you can feel your absolute best on your special day.
           </p>
         </div>
-        <Link
-          to="/aboutme"
-          className="home-about-me-button-link home-button-align"
-        >
+        <Link to="/aboutme" className="home-about-me-button-link">
           <button className="home-about-me-button button">
             <h3 className="button-heading-text">Read more</h3>
             <p className="button-body-text">About myself and my experience</p>

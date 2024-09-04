@@ -19,8 +19,12 @@
   text-align: center;
 } */
 
+.home-image-margin {
+  margin-bottom: 4rem;
+}
+
 .home-section-padding {
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 }
 
 .text-feature-text {
@@ -43,7 +47,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0 1rem;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem 4rem;
 }
 
 .home-image-slider {
@@ -114,7 +118,7 @@
 }
 
 @media only screen and (min-width: 50rem) {
-  .home-section-padding {
+  .home-image-margin {
     margin-bottom: 0rem;
   }
 
@@ -124,10 +128,6 @@
 
   .padding-top {
     padding-top: 0rem;
-  }
-
-  .home-button-padding {
-    padding-bottom: 4rem;
   }
 
   .home-text-align {
@@ -142,7 +142,7 @@
 
   .home-grid {
     grid-template-columns: repeat(8, 1fr);
-    padding: 4rem 5rem;
+    padding: 4rem 2rem;
   }
 
   .home-intro {
@@ -193,12 +193,12 @@
 
   .home-about-me-content {
     grid-column: 1 / 4;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
 
   .home-about-me-button-link {
     grid-column: 1 / 4;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
   }
 
   .home-gallery {
