@@ -13,7 +13,7 @@ const Contact = () => {
         />
       </div>
       <div className="contact-container">
-        <div className="contact-form">
+        <div className="contact-form-container">
           <h1 className="contact-intro-heading">Get in touch with me!</h1>
           <p className="contact-intro-text contact-section-padding">
             I would love to hear from you regarding your special day. Send me a

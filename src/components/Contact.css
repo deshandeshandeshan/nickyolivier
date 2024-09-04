@@ -6,13 +6,13 @@
 
 .contact-container {
   width: 100%;
-  padding: 2rem 2rem 4rem;
+  padding: 4rem 2rem 4rem;
   background-color: #e3ddd8;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
 
-.contact-form {
+.contact-form-container {
   max-width: 40rem;
   margin: 0 auto;
 }
@@ -62,7 +62,7 @@
 }
 
 .contact-image {
-  height: 60rem;
+  height: 40rem;
   object-fit: cover;
 }
 
@@ -87,4 +87,31 @@
 }
 
 @media only screen and (min-width: 70rem) {
+  .contact-form-container {
+    padding-top: 4rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .contact-image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contact-image-container {
+    grid-column: 1/6;
+    grid-row: 1/2;
+  }
+
+  .contact-container {
+    grid-column: 5/13;
+    grid-row: 1/2;
+  }
+
+  .contact-container {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
 }
