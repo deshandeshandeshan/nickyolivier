@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import introImage from "../images/home-hero.webp";
 import aboutMe from "../images/about-me.webp";
-import ImageSlider from "./ImageSlider";
+import ImageCarousel from "./ImageCarousel";
 import "./Home.css";
 
 const Home = () => {
@@ -56,12 +56,16 @@ const Home = () => {
         </Link>
       </div>
       <div className="home-gallery home-grid">
-        <h1 className="home-gallery-text home-large-heading text-feature-text">
+        <h1 className="home-gallery-text home-large-heading">
           My specialty is in creative, long-lasting hairstyling with a unique
           vibe, and flair for <i>romantic</i>, <i>boho</i> and{" "}
           <i>soft glam styles</i>.
         </h1>
-        <ImageSlider />
+      </div>
+      <div className="imageCarousel">
+        <ImageCarousel />
+      </div>
+      <div className="home-gallery home-grid">
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">
             <h3 className="button-heading-text">View full gallery</h3>
