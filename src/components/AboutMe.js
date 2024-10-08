@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import aboutMeIntroImage from "../images/about-me.webp";
-import hairStyling from "../images/hair-styling.webp";
 import "./AboutMe.css";
 
 const AboutMe = () => {
