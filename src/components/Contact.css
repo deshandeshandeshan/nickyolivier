@@ -1,59 +1,117 @@
 .contact {
-    padding: 10rem 2rem 4rem;
-    background-color: #2D3D2E;
-    color: #E8E9EB;
+  padding: 10rem 2rem 4rem;
+  background-color: #e3ddd8;
+  color: #2d3d2e;
 }
 
 .contact-container {
-   max-width: 40rem; 
-   margin: 0 auto;
+  width: 100%;
+  padding: 4rem 2rem 4rem;
+  background-color: #e3ddd8;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.contact-form-container {
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 .contact-section-padding {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
 
 .contact-form-padding {
-    margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .contact-form-text-padding {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .contact-button-margin {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .input-field {
-    display: block;
-    border-radius: .5rem;
-    border-style: none;
-    font-family: "neue-haas-grotesk-display", sans-serif;
+  display: block;
+  border-radius: 0.5rem;
+  border-style: none;
+  font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 300;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-size: 16px;
+  color: #2d3d2e;
+  background-color: #cec6be;
 }
 
-.name-input-field, .email-input-field {
-    width: 100%;
-    height: 2rem;
-    padding: 0 .5rem;
+.name-input-field,
+.email-input-field {
+  width: 100%;
+  height: 2rem;
+  padding: 0 0.5rem;
 }
 
 .message-field {
-    width: 100%;
-    padding: .5rem;
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .form-submit-button {
-    text-align: center;
+  text-align: center;
+}
+
+.contact-image {
+  height: 40rem;
+  object-fit: cover;
+}
+
+.contact-grid {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 0 1rem;
+  padding: 2rem 0 0;
+}
+
+.contact-image-container {
+  grid-column: 1/5;
+  grid-row: 1/5;
+}
+
+.contact-container {
+  grid-column: 1/5;
+  grid-row: 4/10;
 }
 
 @media only screen and (min-width: 50rem) {
-
 }
 
 @media only screen and (min-width: 70rem) {
-    
+  .contact-form-container {
+    padding-top: 4rem;
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .contact-image {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .contact-image-container {
+    grid-column: 1/6;
+    grid-row: 1/2;
+  }
+
+  .contact-container {
+    grid-column: 5/13;
+    grid-row: 1/2;
+  }
+
+  .contact-container {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
 }

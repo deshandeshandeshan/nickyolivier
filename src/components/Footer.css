@@ -1,69 +1,77 @@
 .footer {
-    background-color: #2D3D2E;
+  background-color: #2d3d2e;
 }
 
-.footer-brand {
-    height: 7rem;
+.footer-logo {
+  height: 7rem;
+  margin-bottom: 2rem;
 }
 
 .footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .mobile-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 2fr);
+  gap: 0 1rem;
 }
 
 .footer-grid-padding {
-    padding: 4rem 2rem 2rem;
+  padding: 4rem 2rem 4rem;
 }
 
 .footer-text-padding {
-    padding-bottom: .2rem;
+  padding-bottom: 0.2rem;
 }
 
 .footer-details {
-    font-weight: 200;
-    font-size: 16px;
-    color: #E8E9EB;
+  font-weight: 200;
+  font-size: 16px;
+  color: #e8e9eb;
 }
 
 .footer-nav-links {
-    font-family: "meno-banner", serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 18px;
+  font-family: "meno-banner", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .footer-grid-item-a {
-    grid-column-start: 1;
+  grid-column-start: 1;
 }
 
 .footer-grid-item-b {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    text-align: left;
-    padding-top: 2rem;
-    padding-right: 4rem;
-}
-
-.footer-grid-item-c {
-    grid-column-start: 2;
-    text-align: right;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: left;
 }
 
 @media only screen and (min-width: 50rem) {
-    .footer-grid-padding {
-        padding: 4rem 5rem 2rem;
-    }
+  .mobile-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 2fr);
+  }
+
+  .footer-logo {
+    margin-bottom: 0rem;
+  }
+
+  .footer-grid-item-b {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: right;
+  }
+
+  .footer-grid-padding {
+    padding: 4rem 4rem 2rem;
+  }
 }
 
 @media only screen and (min-width: 70rem) {
-    .footer-grid-padding {
-        padding: 4rem 4.375rem 2rem;
-    }
+  .footer-grid-padding {
+    padding: 4rem 4rem 4rem;
+  }
 }

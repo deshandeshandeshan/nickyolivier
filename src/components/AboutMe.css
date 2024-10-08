@@ -1,212 +1,166 @@
 .about-me {
-    background-color: #2D3D2E;
-    color: #E8E9EB;
+  background-color: #e3ddd8;
+  color: #2d3d2e;
 }
 
 .about-me-text-align {
-    text-align: center;
+  text-align: center;
 }
 
-.about-me-intro-heading, .about-me-intro-text {
-    padding-left: 2rem;
-    padding-right: 2rem;
+.about-me-intro-heading,
+.about-me-intro-text {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .about-me-section-padding {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .about-me-text-padding {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
-.about-me-intro-text,.about-me-button-padding {
-    padding-bottom: 4rem;
+.about-me-intro-text,
+.about-me-button-padding {
+  padding-bottom: 4rem;
 }
 
-.about-me-main-image, .about-me-intro-image {
-    width: 100%;
-    height: 100%;
-    max-height: 40rem;
-    object-fit: cover;
-}
-
-.about-me-section-divider {
-    display: block;
-    height: .1rem;
-    background-color: #E8E9EB;
-    margin: 0 2rem;
-}
-
-.about-me-main-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0 1rem;
-    padding: 4rem 2rem;
+.about-me-intro-image {
+  width: 100%;
+  height: 100%;
+  max-height: 40rem;
+  object-fit: cover;
 }
 
 .about-me-main {
-    grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(4, auto);
 }
 
-.about-me-main-image {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
+.about-me-contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem 4rem;
 }
 
-.about-me-main-text {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-.about-me-main-link {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 4;
+.button-padding {
+  padding-top: 2rem;
 }
 
 @media only screen and (min-width: 50rem) {
-    .about-me {
-        padding-top: 6rem;
-    }
+  .about-me {
+    padding-top: 6rem;
+  }
 
-    .about-me-grid {
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        padding: 4rem 5rem ;
-    }
+  .about-me-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 4rem 5rem;
+  }
 
-    .about-me-intro {
-        grid-template-rows: repeat(5, auto);
-    }
+  .about-me-intro {
+    grid-template-rows: repeat(5, auto);
+  }
 
-    .about-me-intro-heading, .about-me-intro-text {
-        padding-left: 0;
-        padding-right: 0;
-    }
+  .about-me-intro-heading,
+  .about-me-intro-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
-    .about-me-intro-text {
-        padding-bottom: 0;
-    }
+  .about-me-intro-text {
+    padding-bottom: 0;
+  }
 
-    .about-me-section-padding {
-        padding-bottom: 0;
-    }
+  .about-me-section-padding {
+    padding-bottom: 0;
+  }
 
-    .about-me-text-align {
-        text-align: left;
-    }
+  .about-me-text-align {
+    text-align: left;
+  }
 
-    .about-me-intro-image {
-        grid-column-start: 5;
-        grid-column-end: 9;
-        grid-row-start: 1;
-        grid-row-end: 5 ;
-    }
+  .about-me-intro-image {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
 
-    .about-me-intro-heading {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
+  .about-me-intro-heading {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 
-    .about-me-intro-text {
-        grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  .about-me-intro-text {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 
-    .about-me-main-grid {
-        grid-template-columns: repeat(8, 1fr);
-        padding: 4rem 5rem ;
-    }
-    
-    .about-me-main {
-        grid-template-rows: repeat(5, auto);
-    }
-    
-    .about-me-main-image {
-        grid-column-start: 1;
-        grid-column-end: 5;
-        grid-row-start: 1;
-        grid-row-end: 5;
-    }
-    
-    .about-me-main-text {
-        grid-column-start: 6;
-        grid-column-end: 9;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    
-    .about-me-main-link {
-        grid-column-start: 6;
-        grid-column-end: 9;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  .about-me-main {
+    grid-template-rows: repeat(5, auto);
+  }
+
+  .about-me-contact-link {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    justify-content: left;
+    padding: 2rem 0rem;
+  }
 }
 
 @media only screen and (min-width: 70rem) {
-    .about-me-grid, .about-me-main-grid {
-        grid-template-columns: repeat(12, 1fr);
-        padding: 4rem 4.375rem 4rem;
-    }
+  .about-me-grid {
+    grid-template-columns: repeat(12, 1fr);
+    padding: 4rem 4.375rem 4rem;
+  }
 
-    .about-me-intro {
-        grid-template-rows: repeat(5, auto);
-    }
+  .about-me-intro {
+    grid-template-rows: repeat(5, auto);
+  }
 
-    .about-me-intro-image {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 1;
-        grid-row-end: 5 ;
-    }
+  .about-me-intro-image {
+    grid-column-start: 8;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
 
-    .about-me-intro-heading {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
+  .about-me-intro-heading {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 
-    .about-me-intro-text {
-        grid-column-start: 2;
-        grid-column-end: 7;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  .about-me-intro-text {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
 
-    .about-me-main {
-        grid-template-rows: repeat(5, auto);
-    }
-    
-    .about-me-main-image {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 1;
-        grid-row-end: 5;
-    }
-    
-    .about-me-main-text {
-        grid-column-start: 7;
-        grid-column-end: 12;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    
-    .about-me-main-link {
-        grid-column-start: 8;
-        grid-column-end: 12;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
+  .about-me-main {
+    grid-template-rows: repeat(5, auto);
+  }
+
+  .about-me-main-image {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .about-me-contact-link {
+    grid-column: 2/6;
+    grid-row: 4/5;
+  }
 }

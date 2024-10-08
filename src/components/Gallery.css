@@ -1,6 +1,6 @@
 .gallery {
   padding-top: 10rem;
-  background-color: #2d3d2e;
+  background-color: #e3ddd8;
   z-index: -1;
 }
 
@@ -14,19 +14,6 @@
   position: relative;
 }
 
-/* .gallery-image-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #e3ddd8;
-} */
-
 .gallery-image-wrapper:hover .gallery-image-overlay {
   opacity: 0.7;
 }
@@ -36,7 +23,7 @@
 }
 
 .gallery-heading {
-  color: #e8e9eb;
+  color: #2d3d2e;
 }
 
 .gallery-text-align {

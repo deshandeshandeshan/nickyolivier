@@ -1,30 +1,24 @@
 import { Link } from "react-router-dom";
 import introImage from "../images/home-hero.webp";
-import weddingCouple from "../images/wedding-hair-15.webp";
 import aboutMe from "../images/about-me.webp";
-import ImageSlider from "./ImageSlider";
+import ImageCarousel from "./ImageCarousel";
 import "./Home.css";
 
 const Home = () => {
   return (
     <main className="home">
       <div className="home-intro home-grid">
-        <h1 className="text-feature-text text-feature-line-1 home-heading-text">
-          Creating <i>beautiful</i> hairstyles
-        </h1>
-        <h1 className="text-feature-text text-feature-line-2 home-heading-text">
-          to be picture perfect
-        </h1>
-        <h1 className="text-feature-text text-feature-line-3 home-heading-text">
-          on your <i>wedding</i> day
+        <h1 className="text-feature-text text-feature home-large-heading">
+          Creating <i>beautiful</i> hairstyles to be picture perfect on your{" "}
+          <i>wedding</i> day
         </h1>
         <img
           src={introImage}
           alt="woman holding flowers looking out into a lake"
-          className="home-intro-feature-image home-section-padding image-border"
+          className="home-intro-feature-image image-border home-image-margin"
           width="100%"
         />
-        <p className="home-intro-text home-body-text home-section-padding home-button-padding padding-top">
+        <p className="home-intro-text home-body-text home-section-padding">
           Kia ora, I'm Nicky and I am a hairstylist based in Upper Hutt,
           Wellington. I offer professional Wedding Hairstyling in Wellington,
           Wairarapa and Kapiti.
@@ -32,54 +26,55 @@ const Home = () => {
         <Link to="/contact" className="home-intro-contact-button-link">
           <button className="home-intro-contact-button button">
             <h3 className="button-heading-text">Contact me</h3>
-            <p>Enquire about your special day</p>
+            <p className="button-body-text">Enquire about your special day</p>
           </button>
         </Link>
       </div>
-      <img
-        src={weddingCouple}
-        alt="two newly-weds walking through the forest holding hands"
-        className="home-devider-image"
-      />
       <div className="home-about-me home-grid">
         <img
           src={aboutMe}
           alt="potraight of a woman posing amongst flowers"
-          className="home-about-me-image home-section-padding image-border"
+          className="home-about-me-image image-border home-image-margin"
           width="100%"
         />
-        <h2 className="home-about-me-heading home-heading-text home-text-padding home-text-align padding-top">
-          Hello & Welcome
-        </h2>
-        <p className="home-about-me-text home-body-text home-section-padding home-text-align home-button-padding">
-          With over 20 years of Hairdressing experience I have always
-          had a passion for creative styling.
-          This led me to specialize in wedding and occasion hairstyling about 6
-          years ago. I strive for perfection so you can feel
-          your absolute best on your special day.
-        </p>
+        <div className="home-about-me-content">
+          <h2 className="home-about-me-heading home-text-padding home-text-align heading-2">
+            Hello & Welcome
+          </h2>
+          <p className="home-about-me-text home-body-text home-section-padding home-text-align">
+            With over 20 years of Hairdressing experience I have always had a
+            passion for creative styling. This led me to specialize in wedding
+            and occasion hairstyling about 6 years ago. I strive for perfection
+            so you can feel your absolute best on your special day.
+          </p>
+        </div>
         <Link to="/aboutme" className="home-about-me-button-link">
           <button className="home-about-me-button button">
             <h3 className="button-heading-text">Read more</h3>
-            <p>About myself and my experience</p>
+            <p className="button-body-text">About myself and my experience</p>
           </button>
         </Link>
       </div>
-      <div className="home-devider"></div>
       <div className="home-gallery home-grid">
-        <ImageSlider />
-        <p className="home-gallery-text home-body-text home-section-padding home-text-align home-button-padding">
+        <h1 className="home-gallery-text home-large-heading">
           My specialty is in creative, long-lasting hairstyling with a unique
-          vibe, and flair for romantic, boho and soft glam styles.
-        </p>
+          vibe, and flair for <i>romantic</i>, <i>boho</i> and{" "}
+          <i>soft glam styles</i>.
+        </h1>
+      </div>
+      <div className="imageCarousel">
+        <ImageCarousel />
+      </div>
+      <div className="home-gallery home-grid">
         <Link to="/gallery" className="home-gallery-button-link">
           <button className="button home-gallery-button">
             <h3 className="button-heading-text">View full gallery</h3>
-            <p>Take a look at some of my recent work</p>
+            <p className="button-body-text">
+              Take a look at some of my recent work
+            </p>
           </button>
         </Link>
       </div>
-      <div className="home-devider"></div>
     </main>
   );
 };

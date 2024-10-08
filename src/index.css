@@ -6,24 +6,28 @@
   box-sizing: border-box;
 }
 
-body, p, li {
+body,
+p,
+li {
   font-family: degular, sans-serif;
   font-weight: 200;
   font-style: normal;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "meno-banner", serif;
   font-weight: 300;
   font-style: normal;
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 40px;
 }
 
 h3 {
@@ -34,32 +38,32 @@ h3 {
   font-weight: 700;
 }
 
-li, a {
+li,
+a {
   list-style: none;
   text-decoration: none;
 }
 
 a {
-  color: #E8E9EB;
+  color: #e8e9eb;
 }
 
 .button {
   height: auto;
-  width: 100%;
   padding: 1rem 2rem;
   background-color: transparent;
-  color: #D9BA5E;
+  color: #2d3d2e;
   border: solid;
-  border-color: #D9BA5E;
+  border-color: #2d3d2e;
   border-radius: 1rem;
-  border-width: .2rem;
-  text-align: left; 
-  transition: .6s ease-in-out;
+  border-width: 0.2rem;
+  text-align: left;
+  transition: 0.6s ease-in-out;
 }
 
 .button:hover {
   cursor: pointer;
-  background-color: #D9BA5E;
-  color: #2D3D2E;
-  transition: .6s ease-in-out;
+  background-color: #2d3d2e;
+  color: #e3ddd8;
+  transition: 0.6s ease-in-out;
 }

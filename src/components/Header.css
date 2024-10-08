@@ -9,6 +9,7 @@
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
+  color: #e3ddd8;
 }
 
 .nav-bar {
@@ -19,11 +20,7 @@
   padding: 0 2rem;
 }
 
-.nav-background--hidden {
-  background-color: transparent;
-}
-
-.nav-background--active {
+.nav-background {
   background-color: #2d3d2e;
 }
 
@@ -76,7 +73,7 @@
 
 .bar1,
 .bar2 {
-  background-color: #e8e9eb;
+  background-color: #e3ddd8;
   border-radius: 1em;
   width: 2rem;
   height: 0.25rem;
@@ -104,6 +101,10 @@
   transform: rotate(225deg);
 }
 
+.spin {
+  background-color: #e3ddd8;
+}
+
 .nav-link-wrapper:after {
   content: "";
   position: absolute;
@@ -121,9 +122,10 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 4rem;
   transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+  overflow: hidden;
 }
 
 ul.nav-menu {

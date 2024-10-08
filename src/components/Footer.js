@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className="footer mobile-grid footer-grid-padding">
       <img
         src={LogoMark}
-        alt="Cosmic energy logo"
-        className="footer-brand footer-grid-item-a"
+        alt="Nicky Olivier Logo"
+        className="footer-logo footer-grid-item-a"
       />
 
       <div className="footer-details footer-grid-item-b">
@@ -29,29 +29,6 @@ const Footer = () => {
           <li className="contact-list-item">2023 Nicky Olivier Wedding Hair</li>
         </ul>
       </div>
-
-      <ul className="footer-link-list footer-grid-item-c">
-        <li className="footer-list-item footer-text-padding">
-          <Link to="/" className="footer-nav-links">
-            Home
-          </Link>
-        </li>
-        <li className="footer-list-item footer-text-padding">
-          <Link to="/gallery" className="footer-nav-links">
-            Gallery
-          </Link>
-        </li>
-        <li className="footer-list-item footer-text-padding">
-          <Link to="/contact" className="footer-nav-links">
-            Contact
-          </Link>
-        </li>
-        <li className="footer-list-item footer-text-padding">
-          <Link to="/aboutme" className="footer-nav-links">
-            About me
-          </Link>
-        </li>
-      </ul>
     </footer>
   );
 };

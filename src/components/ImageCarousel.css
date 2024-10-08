@@ -1,0 +1,21 @@
+.item {
+  max-height: 40rem;
+  min-width: 30rem;
+  padding: 40px;
+}
+
+.carousel-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
