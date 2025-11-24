@@ -14,7 +14,7 @@ This is a modern, responsive website built for Nicky Olivier, using React. The s
 
    ```bash
    git clone https://github.com/deshandeshandeshan/nickyolivier.git
-   cd client-website
+   cd nickyolivier
 
    ```
 
